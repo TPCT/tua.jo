@@ -1,0 +1,127 @@
+.offered-tenders-inner-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.offered-tenders-inner-blue-box{
+    background: rgba(91, 194, 231, 0.15);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+.offered-tenders-inner-sliders{
+    max-width: 100%;
+    overflow: hidden;
+}
+.swiper-container {
+    width: 100%; /* Take full width of the grid column */
+    max-width: 100%; /* Prevent overflow */
+}
+
+.main-slider {
+    height: 400px; /* Adjust as needed */
+    position: relative;
+    overflow: hidden;
+}
+
+.thumbs-slider {
+    height: 90px;
+    margin-top: 10px;
+}
+.thumbs-slider img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Images inside Swiper */
+.main-slider img {
+    display: block;
+    width: 100%;
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Fit inside container */
+    border-radius: 8px;
+}
+
+/* Thumbnail styles */
+.thumbs-slider .swiper-slide {
+    width: auto;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.thumbs-slider .swiper-slide-thumb-active {
+    border: 2px solid var(--secondary-color);
+    border-radius: 4px;
+}
+  
+.swiper-button-next:after, .swiper-button-prev:after{
+    color: white;
+    font-size: 1.5rem;
+}
+.swiper-button-next:after{
+    margin-inline-end: 1.4rem;
+}
+.swiper-button-prev:after{
+    margin-inline-start: 1.4rem;
+}
+.swiper-button-next, .swiper-button-prev{
+    color: white;
+    background-color: var(--secondary-color);
+    border-radius: 99999999px;
+    width:80px;
+    height: 80px;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: var(--swiper-navigation-sides-offset, -40px);
+    right: auto;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, -40px);
+    left: auto;
+}
+.offered-tenders-inner-content a{
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+@media (max-width: 991.88888px){
+    .offered-tenders-inner-container{
+        grid-template-columns: 1fr;
+    }
+    .offered-tenders-inner-sliders{
+        max-width: 100%;
+    }
+    .main-slider{
+        height: 300px;
+    }
+    .thumbs-slider{
+        height: 70px;
+    }
+    .offered-tenders-inner-sliders{
+        margin-bottom: 3rem;
+    }
+    
+}
+
+
+
+/* ticket 89 */
+.offered-tenders-inner-container .offered-tenders-inner-content .effective-card-date h5{
+    font-size: .85rem;
+    font-weight: 400;
+}
+
+.offered-tenders-inner-container .offered-tenders-inner-content  h3{
+    margin-bottom: 1.7rem !important;
+}
+
+/* ticket 176 */
+.main-slider iframe{
+    display: block;
+    width: 100%;
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Fit inside container */
+    border-radius: 5px;
+}

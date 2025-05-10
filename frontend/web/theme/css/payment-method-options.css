@@ -1,0 +1,48 @@
+.payment-method-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.pay-with-visa{
+    margin-top: 1rem;
+}
+.pay-with-visa picture{
+    width: 68px;
+}
+.pay-with-visa picture img{
+    width: 100%;
+}
+.donation-summary-box{
+    height: fit-content;
+}
+.pay-with-paypal picture{
+    width: 109px;
+}
+.pay-with-paypal picture img{
+    width: 100%;
+}
+.choose-method-box{
+    border-radius: 8px;
+    border: 1px solid #041e422f;
+}
+.choose-method-box .payment-method-box{
+    padding: 1rem;
+    border-bottom:1px solid #041e422f;
+}
+.ecard-step-content{
+    padding: 1rem;
+}
+.ecard-step-content picture{
+    width: 68px;
+}
+.ecard-step-content picture img{
+    width: 100%;
+}
+.pay-with-paypal{
+    padding: 1rem;
+}
+@media (max-width:991.8888888px) {
+    .payment-method-container{
+        grid-template-columns: 1fr;
+    }
+}

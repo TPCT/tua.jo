@@ -1,0 +1,71 @@
+
+a{
+    text-decoration: none;
+    color: #36517b;
+}
+a:hover,
+a:focus {
+  color: #1f2e46;
+  text-decoration: underline;
+}
+.sidebar ul li{
+    width: 100%;
+}
+.nav > li > a{
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-wrap: wrap;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #dddddd;
+}
+
+
+.navbar{
+    display: block;
+}
+.navbar-inverse{
+    width: 100%;
+}
+
+.navbar-nav.navbar-right.nav{
+    display: inline-block;
+}
+
+.navbar-inverse .navbar-collapse{
+    flex-basis: unset;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.navbar.navbar-default.navbar-static-top{
+    padding: 0px;
+}
+
+.media-index .panel, .modal-media-frame .panel{
+    height: 100%;
+}
+
+.btn-print, .btn-print:hover, .btn-print:focus, .btn-print:active{
+    background-color: rgb(240, 240, 240);
+    color: rgb(119, 119, 119);
+}
+
+.webform .card-header{
+    background-color: #5cb85c;
+    border-color: #5cb85c ;
+}
+.webform .card-footer{
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+
+blockquote {
+    border-top: 3px solid black;
+    text-align: center;
+    margin-inline: 0rem;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}

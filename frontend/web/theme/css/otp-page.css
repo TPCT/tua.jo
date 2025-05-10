@@ -1,0 +1,58 @@
+.otp-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.arabic-version .otp-container {
+    direction: ltr;
+}
+.otp-input {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.otp-section {
+    margin-top: 7.4rem;
+    height: calc(100vh - 141.6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/Images/otp-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media (max-width: 1799.888888px) {
+    .otp-section {
+        height: calc(100vh - 119px) !important;
+    }
+}
+@media (max-width: 1199.888888px) {
+    .otp-section {
+        height: calc(100vh - 95px) !important;
+    }
+}
+.otp-section form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.otp-section form input {
+    background-color: #fff;
+}
+.otp-section form input:focus-visible {
+    outline: var(--secondary-color) solid 2px;
+}
+.otp-section form .count {
+    color: var(--secondary-color);
+}
+.otp-section form .warn {
+    color: rgb(4 30 66 / 50%);
+    margin-bottom: .8rem;
+}
+.otp-section form input::placeholder {
+    color: var(--primary-color);
+}

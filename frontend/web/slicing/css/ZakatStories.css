@@ -1,0 +1,6 @@
+#ZakatStories .box-latest-news-added > picture > img {
+  aspect-ratio: 1.36 / 1;
+}
+.latest-added-section .form-select{
+  font-size: 0.85rem !important;
+}

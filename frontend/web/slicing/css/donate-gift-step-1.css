@@ -1,0 +1,51 @@
+#donate-gift-step-1 .e-card-design{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@media (min-width: 576px) {
+    .leave-opinion-dialog {
+        max-width: 700px;
+        margin: 1.75rem auto;
+    }
+}
+.leave-opinion-dialog h4{
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+.leave-opinion-dialog .modal-body div{
+    margin-bottom: 1rem;
+}
+.type-4-btn{
+    width: fit-content;
+}
+.choosen-ecard-section{
+    display: flex;
+    gap: 1rem;
+    border-bottom: 1.5px solid #041e422f
+}
+.choosen-ecard-section picture {
+    width: 110px ;
+    flex-shrink: 0;
+}
+.choosen-ecard-section picture img {
+    width: 100%;
+    object-fit: contain;
+}
+.ecard-step-content input[type="email"]{
+    background-image: url(../assets/Icons/input-EnvelopeSimple.svg);
+    background-repeat: no-repeat;
+    background-position: center left 15px;
+    text-indent: 40px;
+}
+.arabic-version .ecard-step-content input[type="email"]{
+    background-position: center right 15px;
+}
+#amount {
+    text-indent: 15px;
+    background-image: url(../assets/Icons/JOD.svg);
+    background-repeat: no-repeat;
+    background-position: center right 25px;
+}
+.arabic-version #amount {
+    background-position: center left 25px;
+}

@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Receipt</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* english fonts  */
+
+        @font-face {
+            font-family: "Alexandria";
+            src: url("../assets/Fonts/static/Alexandria-Thin.ttf");
+            font-weight: 100;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Alexandria";
+            src: url("../assets/Fonts/static/Alexandria-ExtraLight.ttf");
+            font-weight: 200;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Alexandria";
+            src: url("../assets/Fonts/static/Alexandria-Light.ttf");
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Alexandria";
+            src: url("../assets/Fonts/static/Alexandria-Regular.ttf");
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Alexandria";
+            src: url("../assets/Fonts/static/Alexandria-Medium.ttf");
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Alexandria";
+            src: url("../assets/Fonts/static/Alexandria-SemiBold.ttf");
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Alexandria";
+            src: url("../assets/Fonts/static/Alexandria-Bold.ttf");
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Alexandria";
+            src: url("../assets/Fonts/static/Alexandria-ExtraBold.ttf");
+            font-weight: 800;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Alexandria";
+            src: url("../assets/Fonts/static/Alexandria-Black.ttf");
+            font-weight: 900;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        * {
+            font-family: Alexandria;
+        }
+
+        h1 {
+            font-size: 2.1rem;
+            font-weight: 500;
+            line-height: 1.5;
+            color: var(--primary-color);
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            font-weight: 500;
+            line-height: 1.6;
+            color: var(--primary-color);
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            font-weight: 500;
+            line-height: 1.6;
+            color: var(--primary-color);
+        }
+
+        h4 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            line-height: 1.6;
+            color: var(--primary-color);
+        }
+
+        h5 {
+            font-size: 0.9rem;
+            font-weight: 500;
+            line-height: 1.6;
+            color: var(--primary-color);
+        }
+
+        p {
+            font-size: 0.95rem;
+            font-weight: 400;
+            line-height: 1.6;
+            color: var(--primary-color);
+        }
+
+        a {
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+
+        span {
+            font-size: 0.9rem;
+            font-weight: 500;
+            line-height: 1.6;
+            color: var(--primary-color);
+        }
+
+        label {
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 1.6;
+        }
+
+        th {
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        td {
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 1.6;
+        }
+
+        /* ar */
+        .arabic-version h1 {
+            font-size: 1.7rem;
+            font-weight: 500;
+            line-height: 1.7;
+        }
+
+        .arabic-version h2 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            line-height: 1.6;
+        }
+
+        .arabic-version h3 {
+            font-size: 1.2rem;
+            font-weight: 500;
+            line-height: 1.6;
+        }
+
+        .arabic-version h4 {
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 1.6;
+        }
+
+        .arabic-version h5 {
+            font-size: 0.85rem;
+            font-weight: 500;
+            line-height: 1.8;
+        }
+
+        .arabic-version p {
+            font-size: 0.9rem;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        .arabic-version a {
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+
+        .arabic-version span {
+            font-size: 0.85rem;
+            font-weight: 500;
+            line-height: 1.6;
+        }
+
+        .arabic-version label {
+            font-size: 0.9rem;
+            font-weight: 500;
+            line-height: 1.6;
+        }
+
+        /* For IE10 */
+        select::-ms-expand {
+            display: none;
+        }
+
+        .arabic-version {
+            direction: rtl;
+        }
+
+        .email-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: white;
+            border-radius: 8px;
+            position: relative;
+            padding: 20px;
+            z-index: 1;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .email-container::after {
+            content: "";
+            position: absolute;
+            top: -0px;
+            left: -0px;
+            right: -0px;
+            bottom: -0px;
+            background-color: rgba(4, 30, 66, 1);
+            border-radius: 10px;
+            z-index: -1;
+        }
+
+        .header {
+            color: rgba(4, 30, 66, 1);
+            text-align: center;
+            padding: 20px 0;
+            background-color: white;
+        }
+
+        .header h4 {
+            width: 50%;
+            margin: auto;
+        }
+
+        .header img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .section-title {
+            margin-bottom: 10px;
+        }
+
+        .donation-summary,
+        .donation-cases,
+        .more-schemes {
+            margin-bottom: 20px;
+        }
+
+        .summary-box {
+            background-color: white;
+            border-radius: 8px;
+            border: 1px solid rgba(4, 30, 66, 0.2);
+            overflow: hidden;
+        }
+
+        .summary-box h3 {
+            margin: 0;
+        }
+
+        .summary-box-top {
+            background-color: rgba(4, 30, 66, 0.02);
+            padding: 1rem;
+        }
+
+        .summary-box-bottom {
+            background-color: rgba(4, 30, 66, 0.05);
+            text-align: justify;
+            padding: 1rem;
+        }
+
+        .summary-box-bottom div {
+            width: 100%;
+        }
+
+        .summary-box-bottom div p {
+            display: inline-block;
+        }
+
+        .summary-box p {
+            margin: 0;
+
+        }
+
+        .summary-box-bottom {
+            width: 100%;
+        }
+
+        .summary-box-bottom div {
+            text-align: justify;
+        }
+
+        .summary-box-bottom div p {
+            display: inline-block;
+            margin: 0;
+            width: 46%;
+            /* Adjust width to control space between <p> elements */
+        }
+        .summary-box-bottom div p:last-child {
+            text-align: end;
+        }
+        .progress-value{
+            text-align: justify;
+        }
+        .progress-value p{
+            display: inline-block;
+            margin: 0;
+            
+        }
+        .progress-value p:last-child{
+            text-align: end;
+            width: 48%;
+        }
+
+        
+
+        .case-card {
+            display: block;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 10px;
+            background-color: white;
+        }
+
+        .case-card .main-img {
+            display: block;
+            width: 100%;
+            margin: 0;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 8px;
+            color: white;
+        }
+
+        .badge span {
+            vertical-align: top;
+        }
+
+        .badge.feeding {
+            background-color: rgba(206, 90, 157, 1);
+        }
+
+        .badge.incidents {
+            background-color: rgba(215, 80, 80, 1);
+        }
+
+        .badge.humanitarian {
+            background-color: rgba(178, 204, 40, 1);
+        }
+
+        .footer {
+            background-color: rgba(91, 194, 231, 1);
+            text-align: center;
+            padding: 10px;
+            color: white;
+        }
+
+        .footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .footer a img{
+            scale: 0.8;
+        }
+
+        .email-container-wrapper {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .case-card {
+            padding: 1rem;
+        }
+
+        .case-card p {
+            margin: 0.5rem 0;
+        }
+
+        .case-card picture {
+            display: inline-block;
+        }
+
+        .case-card-content {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 10px;
+            width: calc(100% - 110px - 1rem);
+        }
+
+        .main-colored-progress-bar {
+            position: relative;
+            margin-bottom: 1rem;
+        }
+
+        .outer-colored-progress-bar {
+            background-color: rgba(215, 80, 80, 0.3);
+            border-radius: 999px;
+            width: 100%;
+            height: 10px;
+        }
+
+        .inner-colored-progress-bar {
+            margin-top: -10px;
+            background-color: rgba(215, 80, 80, 1);
+            height: 10px;
+            inset-inline-start: 0;
+            border-radius: 999px;
+        }
+        .main-img{
+            border-radius: 4px;
+        }
+        .more-schemes .case-card .main-img{
+           width: 200px;
+        }
+        .more-schemes .case-card .case-card-content{
+            width: calc(100% - 200px - 1rem);
+        }
+        .more-schemes .case-card .case-card-content h4{
+            margin: 0.5rem 0;
+        }
+        .arabic-version{
+            direction: rtl;
+        }
+        .youtube-footer img{
+            margin-bottom: -0.3rem;
+        }
+    </style>
+</head>
+
+<body class="arabic-version">
+    <div class="email-container">
+        <div class="email-container-wrapper">
+    
+            <!-- Header -->
+            <div class="header">
+                <img src="./assets/Logo.svg" alt="" />
+                <h4>نحن نقدر تبرعك ومساعدتك. شكراً جزيلاً!</h4>
+            </div>
+    
+            <!-- Content -->
+            <div class="content">
+                <!-- Donation Summary -->
+                <div class="donation-summary">
+                    <h3 class="section-title">ملخص التبرع</h3>
+                    <div class="summary-box">
+                        <div class="summary-box-top">
+                            <p>قيمة إيصال التبرع</p>
+                            <h3>100 دينار أردني</h3>
+                            <p>تاريخ التبرع: 10 / 12 / 2024</p>
+                        </div>
+                        <div class="summary-box-bottom">
+                            <div>
+                                <p>رقم الإيصال: </p>
+                                <p>6273</p>
+                            </div>
+                            <div>
+                                <p>طريقة الدفع:</p>
+                                <p>فيزا</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Cases Donated To -->
+                <div class="donation-cases">
+                    <h3 class="section-title">الحالات التي تم التبرع لها</h3>
+                    <div class="case-card">
+                        <picture>
+                            <img class="main-img" src="./assets/Rectangle 36.png" alt="صورة القضية">
+                        </picture>
+                        <div class="case-card-content">
+                            <div class="badge feeding">
+                                <picture>
+                                    <img src="./assets/Icons/BowlSteam.svg" alt="">
+                                </picture>
+                                <span>إطعام</span>
+                            </div>
+                            <p>طرود غذائية شهرية</p>
+                        </div>
+                    </div>
+                    <div class="case-card">
+                        <picture>
+                            <img class="main-img" src="./assets/Rectangle 36.png" alt="صورة القضية">
+                        </picture>
+                        <div class="case-card-content">
+                            <div class="badge incidents">
+                                <picture>
+                                    <img src="./assets/Icons/Leaf.svg" alt="">
+                                </picture>
+                                <span>الحوادث</span>
+                            </div>
+                            <p>زكاتك تصل إلى الأردن وغزة</p>
+                            <div class="main-colored-progress-bar">
+                                <div class="outer-colored-progress-bar"></div>
+                                <div class="inner-colored-progress-bar" progress="58%"></div>
+                                <div class="progress-value">
+                                    <p>5,834 دينار أردني من 8,000 دينار أردني</p>
+                                    <p class="progress-percent"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <!-- More Donation Schemes -->
+                <div class="more-schemes">
+                    <h3 class="section-title">مزيد من خطط التبرع</h3>
+                    <div class="case-card">
+                        <picture>
+                            <img class="main-img" src="./assets/Rectangle 40.png" alt="صورة القضية">
+                        </picture>
+                        <div class="case-card-content">
+                            <div class="badge humanitarian">
+                                <picture>
+                                    <img src="./assets/Icons/support 1.svg" alt="">
+                                    <span>مساعدات إنسانية</span>
+                                </picture>
+                            </div>
+                            <h4>حملة العودة إلى المدرسة - صدقة جارية</h4>
+                            <p>يمكنك التبرع بقيمة الطرود الغذائية الشهرية التي يتم تسليمها للأسر المستفيدة.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Footer -->
+            <div class="footer">
+                <a href="#">
+                    <picture>
+                        <img src="./assets/Icons/twitter 1.svg" alt="">
+                    </picture>
+                </a>
+                <a href="#">
+                    <picture>
+                        <img src="./assets/Icons/facebook-app-symbol 1.svg" alt="">
+                    </picture>
+                </a>
+                <a href="#" class="youtube-footer">
+                    <picture>
+                        <img src="./assets/Icons/youtube 1.svg" alt="">
+                    </picture>
+                </a>
+                <a href="#">
+                    <picture>
+                        <img src="./assets/Icons/instagram 1.svg" alt="">
+                    </picture>
+                </a>
+                <a href="#">
+                    <picture>
+                        <img src="./assets/Icons/linkedin 1.svg" alt="">
+                    </picture>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+  // Select all elements with the class 'main-colored-progress-bar'
+  const progressBars = document.querySelectorAll(".main-colored-progress-bar");
+
+  // Loop through each parent element
+  progressBars.forEach(function(progressBar) {
+    // Get the progress value from the 'inner-colored-progress-bar'
+    const progressValue = progressBar.querySelector(".inner-colored-progress-bar").getAttribute("progress");
+
+    // Set the width dynamically
+    progressBar.querySelector(".inner-colored-progress-bar").style.width = progressValue;
+
+    // Set the text content of the progress percent (inside the parent div)
+    const percentSpan = progressBar.querySelector(".progress-percent");
+    if (percentSpan) {
+      percentSpan.textContent = progressValue; // Set it to "80%" or whatever value is in the progress attribute
+    }
+  });
+});
+
+
+</script>
+</html>

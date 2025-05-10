@@ -1,0 +1,159 @@
+/* Table Wrapper for Scrollable Content */
+.donation-table-wrapper {
+  overflow-x: auto; /* Enables horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.donation-table-wrapper table {
+  min-width: 100%; /* Ensures table does not shrink and forces scrolling if necessary */
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.donation-table-wrapper th, 
+.donation-table-wrapper td {
+  text-align: start;
+  padding: 15px; /* Spacing for table cells */
+}
+
+.donation-table-wrapper th {
+  border-block: 1px solid #041e422f; /* Header row separator */
+}
+
+.donation-table-wrapper th p {
+  margin-bottom: 0;
+  color: var(--primary-color);
+  opacity: 0.6; /* Subtle text color for header */
+}
+
+.donation-table-wrapper tbody tr {
+  border-bottom: 1px solid #041e422f; /* Row separator */
+}
+
+
+/* Donation Detail Styling */
+.donation-detail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.donation-detail picture {
+  width: 85px;
+  height: 85px;
+}
+
+.donation-detail picture img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.donation-detail h4 {
+  margin: 0;
+  white-space: nowrap; /* Prevents wrapping */
+}
+.donation-detail h5 {
+ opacity: 0.5;
+ font-weight: 400;
+ font-size: 0.85rem;
+}
+.payment-method-container{
+  margin-bottom: 2rem;
+}
+.payment-method-container form{
+  margin-top: 1rem;
+}
+/* Quantity Control Styling */
+.quantity-control {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  border-radius: 9999px;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.quantity-btn {
+  border: none;
+  background-color: var(--primary-color);
+  color: rgba(250, 250, 250, 1);
+  padding: 5px 10px;
+  cursor: pointer;
+  height: 100%;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.quantity-btn.minus {
+  border-inline: 1px solid #041e422f;
+  padding-inline: 0.7rem;
+}
+
+.quantity-btn.plus {
+  border-inline-start: 1px solid #041e422f;
+  padding-inline: 0.7rem;
+}
+
+.quantity {
+  margin-bottom: 0;
+  padding-inline: 0.5rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-block: 1.5px solid rgba(4, 30, 66, 0.15);
+  width: 45px;
+}
+
+/* Remove Item Button */
+.remove-item {
+  background-color: rgba(215, 80, 80, 1);
+  color: rgba(250, 250, 250, 1);
+  height: 39px;
+  width: 39px;
+  border-radius: 9999px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline-start: auto;
+}
+
+/* Payment Method Container */
+.payment-method-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Two-column layout */
+  gap: 1rem;
+}
+
+.payment-method-container select {
+  height: 45px;
+  min-width: 300px;
+  text-indent: 15px;
+}
+
+.payment-method-container-btns {
+  display: flex;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 991.88888px) {
+  .donation-table-wrapper {
+    overflow-x: auto; /* Ensure table scroll remains active */
+    width: 98vw;
+    padding-inline: 0;
+  }
+  
+  .payment-method-container {
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+}

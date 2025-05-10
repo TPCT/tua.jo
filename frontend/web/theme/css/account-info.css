@@ -1,0 +1,129 @@
+.account-info-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.account-info-form{
+    background-color: rgba(250, 250, 250, 1);
+    padding:2rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(32, 0, 94, 0.2);
+    height: fit-content;
+}
+.account-info-form #account-name{
+    background-image: url(../assets/Icons/User.svg);
+    background-repeat: no-repeat;
+    background-position: center left 15px;
+    text-indent: 40px;
+}
+.arabic-version .account-info-form #account-name{
+    background-position: center right 15px;
+}
+.account-info-form #account-email{
+    background-image: url(../assets/Icons/input-EnvelopeSimple.svg);
+    background-repeat: no-repeat;
+    background-position: center left 15px;
+    text-indent: 40px;
+}
+.arabic-version .account-info-form #account-email{
+    background-position: center right 15px;
+}
+.account-info-form #account-pass{
+    background-image: url(../assets/Icons/Lock.svg);
+    background-repeat: no-repeat;
+    background-position: center left 15px;
+    text-indent: 40px;
+    padding-top: 1rem;
+}
+.arabic-version .account-info-form #account-pass{
+    background-position: center right 15px;
+}
+.arabic-version .account-info-form #account-mumber{
+    text-indent: 50px;
+}
+.info-box{
+    padding: 1.5rem;
+    border: 1px solid rgba(32, 0, 94, 0.2);
+    border-radius: 8px;
+}
+.info-box picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    background-color: var(--primary-color);
+    border-radius: 999px;
+    margin-bottom: 2rem;
+}
+.info-box img{
+    width: 24px;
+}
+.info-box picture::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(4, 30, 66, 0.15);
+    width: 140%;
+    height: 140%;
+    border-radius: 999px;
+    z-index: -1;
+}
+.passContainer {
+    position: relative;
+    width: 100%;
+}
+
+.phoneContainer{
+    position: relative;
+    width: 100%;
+}
+.arabic-version .phoneContainer input{
+    text-indent: 62% !important;
+}
+.arabic-version .passContainer input{
+    text-indent: 80% !important;
+}
+.phoneContainer .change-btn{
+    position: absolute;
+    top: 72%;
+    inset-inline-end: 5%;
+    transform: translateY(-50%);
+    background-color: transparent; 
+    color: yellowgreen;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+
+}
+.passContainer .change-btn {
+    position: absolute;
+    top: 72%;
+    inset-inline-end: 5%;
+    transform: translateY(-50%);
+    background-color: transparent; 
+    color: yellowgreen;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+
+@media (max-width:991.88888px) {
+    .account-info-content{
+        grid-template-columns: 1fr;
+    }
+}
+.delete-account-modal h4{
+    text-align: center;
+}
+.delete-account-modal .modal-footer{
+    background-color: rgba(214, 230, 252, 0.3);
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.delete-account-modal .modal-header{
+    border-bottom: none;
+}

@@ -1,0 +1,117 @@
+.zakat-calculator .accordion {
+  grid-template-columns: 1fr;
+}
+.zakat-calculator .current {
+  box-shadow: 0px 0px 40px 0px #b6b6b633;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+.zakat-calculator .current h3:last-child,
+.zakat-calculator .current a {
+  color: var(--secondary-color);
+}
+.zakat-calculator .current a{
+  text-decoration: none;
+}
+.zakat-calculator .current a:hover{
+  text-decoration: underline;
+}
+.zakat-calculator .nav {
+  width: fit-content;
+  border: var(--main-border);
+  border-radius: 50px;
+  padding: 5px 10px;
+  gap: 10px;
+  border: 1px solid var(--border-color);
+}
+.zakat-calculator .nav .nav-link {
+  color: var(--main-color);
+  border-radius: 20px;
+}
+.zakat-calculator .nav-tabs .nav-link.active {
+  background: var(--primary-color);
+
+  color: #fff;
+  border-radius: 2rem;
+}
+.zakat-calculator .nav-tabs .nav-link::before {
+  content: unset;
+}
+.zakat-calculator .nav-tabs .nav-item.show .nav-link,
+.zakat-calculator .nav-tabs .nav-link.active,
+.zakat-calculator .nav-tabs .nav-item .nav-link:hover {
+  color: var(--primary-color) !important;
+  padding: 5px 40px;
+}
+.zakat-calculator .nav-tabs .nav-item .nav-link.active {
+  color: #fff !important;
+}
+.zakat-calculator .nav-tabs .nav-item .nav-link {
+  padding: 5px 40px;
+}
+.zakat-calculator .form-group input,
+.zakat-calculator .form-group input:focus,
+.zakat-calculator .form-group input:focus-visible {
+  border: 0;
+  outline: none; /* Remove any outline */
+}
+.zakat-calculator .form-group input:focus-visible {
+  box-shadow: none;
+}
+.zakat-calculator .form-group {
+  border: 1.5px solid var(--border-color);
+  border-radius: 50px;
+}
+.zakat-calculator .form-group h5 {
+  padding-inline-end: 0.5rem;
+}
+.zakat-calculator .zakat-value {
+  border: 2.5px dashed #041e4226;
+  background: #041e420d;
+  border-radius: 10px;
+  padding: 30px 10px;
+}
+.zakat-calculator .zakat-value h3 {
+  margin: 0;
+}
+
+.zakat-calculator .for-money {
+  box-shadow: 0px 0px 40px 0px #b6b6b633;
+  border-radius: 10px;
+}
+@media (max-width: 425px) {
+  .zakat-calculator .nav-tabs .nav-link,
+  .zakat-calculator .nav-tabs .nav-link.active,
+  .zakat-calculator .nav-tabs .nav-item .nav-link:hover {
+    padding: 5px 25px !important;
+  }
+  .zakat-calculator .zakat-value {
+    flex-direction: column;
+  }
+}
+.arabic-version .zakat-calculator .form-group input {
+  width: 85%;
+}
+
+#ZakatCalculator .nav-tabs .nav-item .nav-link{
+  font-size:0.9rem ;
+  font-weight: 400;
+}
+.arabic-version #ZakatCalculator .nav-tabs .nav-item .nav-link{
+  font-size:0.85rem ;
+}
+.nisab-fatwa-container{
+  padding-inline-start: 3rem;
+}
+
+
+
+/* ticket 172 */
+.zakat-calculator .nav {
+  width: fit-content;
+  border: var(--main-border);
+  border-radius: 50px;
+  padding: 3px;
+  gap: 10px;
+  border: 1px solid var(--border-color);
+}

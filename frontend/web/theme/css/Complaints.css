@@ -1,0 +1,18 @@
+.form-check input {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  border-radius: 5px !important;
+}
+.Complaints-intro{
+  font-weight: 400;
+}
+.Complaints-radio-box label{
+  font-size: 0.9rem;
+}
+.arabic-version .Complaints-radio-box label{
+  font-size: 0.85rem;
+}
+
+
+

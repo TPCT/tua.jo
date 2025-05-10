@@ -1,0 +1,30 @@
+.assembly-accordion .accordion{
+    grid-template-columns: 1fr;
+}
+.assembly-accordion .custom-accordion .accordion-btn .fa-plus{
+    color: var(--primary-color);
+}
+.assembly-accordion .custom-accordion .accordion-button:not(.collapsed) {
+    color: var(--primary-color);
+}
+.assembly-accordion .custom-accordion .accordion-button:not(.collapsed) .fa-plus{
+    display: none;
+}
+.assembly-accordion .accordion-header {
+    border: rgba(4, 30, 66, 0.2) solid 1px;
+    border-radius: 9999px;
+}
+.protection-main-section .container{
+    width: 60%;
+}
+@media (max-width:1200.8888888888px){
+    .protection-main-section .container{
+        width: 80%;
+    }
+    
+}
+@media (max-width:767.888888888px){
+    .protection-main-section .container{
+        width: 90%;
+    }
+}

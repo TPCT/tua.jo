@@ -1,0 +1,69 @@
+.Empowerment-details-new-section .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+    margin-bottom: 3rem;
+}
+.Empowerment-details-main-img {
+    width: 100%;
+    border-radius: 5px;
+}
+ .check-input {
+    display: flex;
+    gap: 0.5rem;
+    background-color: rgba(247, 248, 249, 1);
+    align-items: center;
+    padding: 1rem 0.5rem;
+    border-radius: 6px;
+}
+.check-input input {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    border: var(--primary-color);
+    appearance: none;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+.check-input p{
+    margin-bottom: 0;
+}
+.donation-amount-detailed {
+    border: none;
+    padding: 0;
+}
+.donor-details-box {
+    border: none;
+    padding: 0;
+}
+.donor-details-box .check-input{
+    border-bottom: 1px solid rgba(4, 30, 66, 0.3);
+    border-radius: 0;
+}
+.Empowerment-product-price h3:last-child {
+    color: var(--secondary-color);
+}
+.Empowerment-product-price{
+    border-bottom: 1px solid rgba(4, 30, 66, 0.3);
+    margin-bottom: 1rem;
+}
+@media (max-width:991.89px) {
+    .Empowerment-details-new-section .container{
+        grid-template-columns: 1fr;
+    }
+}
+.empowerment-card {
+    display: flex !important;
+}
+.donation-flow-slider .slick-track{
+    gap: 1rem;
+}
+.iti--allow-dropdown{
+    width: 100%;
+}
+ .type-3-btn svg, .arabic-version .type-3-btn i{
+    transform: none !important;
+}

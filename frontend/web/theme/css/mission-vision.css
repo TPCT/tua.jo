@@ -1,0 +1,97 @@
+#mission-vision .value-cards-container{
+    display: flex;
+    width: 70%;
+}
+#mission-vision .value-card{
+    flex: 1;
+}
+.Strategic-Priorities-section{
+    background-image: url('../assets/Images/AboutTUA/Group\ 1000006234.png');
+    background-position: center  right ;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    margin-top: 3rem;
+    background-repeat: no-repeat;
+}
+.arabic-version .Strategic-Priorities-section{
+    background-image: url('../assets/Images/AboutTUA/missin-flipped.png');
+    background-position: center  left ;
+}
+@media (min-width:1599px) {
+    .Strategic-Priorities-section{
+        background-size:cover ;
+        padding-block: 8rem;  
+    }
+}
+.Strategic-Priorities-section .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    
+}
+#mission-vision .value-cards-container.light{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+    width: 100% !important;
+    margin-top: -3rem;
+}
+.value-cards-container.light .value-card{
+    background-color: white;
+}
+
+.values-accordion-section{
+    margin-block: 4rem;
+}
+.values-accordion-section .container{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+.assembly-accordion .accordion{
+    grid-template-columns: 1fr;
+}
+.assembly-accordion .custom-accordion .accordion-btn .fa-plus{
+    color: var(--primary-color);
+}
+.assembly-accordion .custom-accordion .accordion-button:not(.collapsed){
+    color: var(--primary-color);
+}
+.assembly-accordion .accordion-header {
+    border: rgba(4, 30, 66, 0.2) solid 1px;
+    border-radius: 999px;
+}
+.values-accordion-section h1 img {
+    margin-top: -1rem;
+}
+@media (max-width:991.88888px) {
+    .Strategic-Priorities-section .container{
+        grid-template-columns: 1fr !important;
+    }
+    #mission-vision .value-cards-container.light{
+        grid-template-columns: 1fr 1fr !important;
+    } 
+    .values-accordion-section .container{
+        grid-template-columns: 1fr !important;
+    }
+    .Strategic-Priorities-section{
+        background: transparent;
+    }
+    
+}
+@media (max-width:767.88888px) {
+    #mission-vision .value-cards-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    #mission-vision .value-cards-container.light{
+        grid-template-columns: 1fr  !important;
+    } 
+
+}
+@media(min-width:991.89px) and (max-width:1199.89px){
+    .Strategic-Priorities-section .container div:first-child{
+        background-color: white;
+        border-radius: 5px;
+        padding: 1rem;
+        width: fit-content;
+    }
+}

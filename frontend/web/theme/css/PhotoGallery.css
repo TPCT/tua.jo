@@ -1,0 +1,47 @@
+.photo-gallery-section .photo-card {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.photo-gallery-section .photo-card img {
+  width: 100%;
+}
+.photo-gallery-section .photo-card .photo-card-content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+  height: 100%;
+}
+.photo-gallery-section .photo-card .photo-card-content h4 {
+  height: 100%;
+}
+/* Ticket 122 */
+.fancybox-toolbar {
+  background-color: #0050c0;
+}
+.fancybox-navigation .fancybox-button--arrow_right div {
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  background-image: url("../assets/Icons/arrow-fancy-right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fancybox-navigation .fancybox-button--arrow_left div {
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  background-image: url("../assets/Icons/arrow-fancy-left.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fancybox-navigation .fancybox-button--arrow_right,
+.fancybox-navigation .fancybox-button--arrow_left {
+  background-color: transparent;
+}
+.fancybox-navigation .fancybox-button--arrow_right svg,
+.fancybox-navigation .fancybox-button--arrow_left svg {
+  display: none;
+}

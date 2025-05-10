@@ -1,0 +1,87 @@
+.value-cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.value-card{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(250, 250, 250, 1) ;
+    align-items: center;
+    padding: 1.5rem 1.7rem;
+    text-align: center;
+    border: 1px solid rgba(4, 30, 66, 0.25);
+    border-radius: 8px;
+}
+.value-card picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    width: 85px;
+    height: 85px;
+    border-radius: 9999px;
+    margin-bottom: 1rem;
+    flex-shrink: 0;
+}
+.value-card picture img {
+    scale: 0.85;
+}
+.value-card-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+/* .values-last-section{
+    background-image: url('../assets/Images/AboutTUA/banner.png');
+    padding-block: 10rem;
+    margin-block: 3rem;
+}
+.values-last-section .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+   text-align: center;
+} */
+@media (max-width: 1500.888888px){
+    .value-card-content h4{
+        min-height: 4.5rem;
+    }
+}
+@media (max-width:991.8888px) {
+    .value-cards-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:767.8888px) {
+    .value-cards-container{
+        grid-template-columns: 1fr;
+    }
+    /* .values-last-section .container{
+        width: 100%;
+    } */
+}
+.values-last-section{
+    position: relative;
+    padding-block: 3rem;
+}
+.values-last-section img{
+    
+    object-fit: contain;
+}
+
+.values-last-section .content-values-last-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+}

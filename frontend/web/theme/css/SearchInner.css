@@ -1,0 +1,99 @@
+
+/* search page  */
+
+.search-form-container {
+    padding-top: 2rem;
+    display: flex;
+    gap: 1rem;
+  }
+  .search-form-container a button {
+    padding: 0.5rem 1.5rem;
+  }
+  .searchPageContainer {
+    padding: 0 0;
+  }
+  .search-container .product h4,
+  .search-container .search h4,
+  .search-container .project h4 {
+    padding: 0rem 2rem;
+  
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+  }
+  
+  .search-container .search-product__card {
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+  }
+  
+  .search-container .search-product__card:nth-child(2n) {
+    background-color: var(--gray-color);
+  }
+  .search-product__card h3 a {
+    text-decoration: underline;
+    color: var(--main-color);
+  }
+  
+  .search-product__card h3 a:hover {
+    color: var(--main-color);
+  }
+  
+  .add--read_more a svg {
+    border-radius: 100%;
+    border: 1px solid var(--main-color);
+  }
+  
+  .add--read_more a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--main-color);
+  }
+  .search-container .search .search-product__card h3 {
+    padding-bottom: 0.5rem;
+  }
+  
+  .search-container .project,
+  .search-container .search,
+  .search-container .product {
+    padding-bottom: 2rem;
+  }
+  .search-container .search .search-product__card p {
+    max-width: 80%;
+  }
+  
+  .search-product__card a {
+    font-size: 1.4rem;
+  }
+  
+  .search-container p,
+  .search-container h4 {
+    color: var(--main-color);
+  }
+
+  .search-product__card h3 a{
+    color: var(--main-color);
+    
+  }
+  .search-container p{
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    font-weight: 700;
+  
+  }
+  .search-form-container  button{
+  padding: 0.5rem 1.5rem;
+  background-color: var(--main-color);
+  color: white;
+  margin-left: 5px;
+  transition: all .5s;
+}
+.search-form-container  button:hover
+{
+  background-color: transparent;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}

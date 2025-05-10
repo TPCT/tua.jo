@@ -1,0 +1,115 @@
+.CreateYourDonationCampaign-section {
+  padding-top: 2rem;
+  padding-bottom: 0;
+}
+.CreateYourDonationCampaign-section form {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #fafafa;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  padding: 2rem;
+}
+.CreateYourDonationCampaign-section .main-head-form,
+.CreateYourDonationCampaign-section .alert {
+  width: 70%;
+  margin: 0 auto;
+}
+.CreateYourDonationCampaign-section .alert  {
+  margin: 2rem auto;
+}
+.CreateYourDonationCampaign-section .alert  {
+  margin-inline: auto !important;
+}
+@media (max-width: 1199.888px) {
+  .CreateYourDonationCampaign-section form,
+  .CreateYourDonationCampaign-section .alert {
+    width: 90%;
+  }
+  .CreateYourDonationCampaign-section .main-head-form {
+    width: 90%;
+  }
+}
+@media (max-width: 767.888px) {
+  .CreateYourDonationCampaign-section form {
+    padding: 1rem;
+  }
+  .CreateYourDonationCampaign-section form,
+  .CreateYourDonationCampaign-section .alert {
+    width: 100%;
+  }
+  .CreateYourDonationCampaign-section .main-head-form {
+    width: 100%;
+  }
+}
+.e-card-design {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+@media (min-width: 2560px) {
+  .e-card-design {
+    gap: 125px;
+  }
+}
+
+.ecard {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  cursor: pointer;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid transparent;
+  background-color: #fff;
+  border: 1.5px solid var(--border-color);
+  border-radius: 8px;
+  padding: 0 0.3rem 0.3rem 0.3rem;
+}
+
+.ecard img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid transparent;
+}
+
+.ecard input {
+  accent-color: #041e42;
+  width: 26px;
+  height: 26px;
+}
+
+.ecard-step-content {
+  padding: 1.5rem;
+}
+.CreateYourDonationCampaign-section .type-4-btn {
+  width: fit-content;
+}
+.CreateYourDonationCampaign-section textarea {
+  height: 160px;
+  background-color: transparent;
+}
+
+.CreateYourDonationCampaign-yellowbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(243, 162, 23, 0.2);
+  border-radius: 5px;
+  border: 1.5px dashed rgba(243, 162, 23, 1);
+  padding-block: 1rem;
+}
+.CreateYourDonationCampaign-yellowbox p {
+  margin-bottom: 0;
+}
+/* Ticket 148 */
+form input[type="date"] {
+  background-image: url(../assets/Icons/CalenFade.svg);
+  background-repeat: no-repeat;
+  background-position: center left 13px;
+  background-size: 20px;
+  text-indent: 15px;
+}
+

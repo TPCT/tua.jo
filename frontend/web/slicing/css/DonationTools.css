@@ -1,0 +1,45 @@
+.donation-tools .donation-tools-container:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+.donation-tools .donation-tools-container ul picture {
+  display: block;
+  width: 178px;
+  overflow: hidden;
+}
+.filter select {
+  width: 300px;
+  color: var(--primary-color);
+}
+.donationTools-main-img {
+  border-radius: 5px;
+}
+
+/* ticket 156 */
+@media (max-width: 991.89px) {
+  .donation-tools .donation-tools-container {
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 991.9px) {
+  .donation-tools .donation-tools-container ul picture {
+    width: 140px !important;
+  }
+}
+
+/* /end ticket/ */
+/* @media (max-width: 425px) {
+  .donation-tools .donation-tools-container ul picture {
+    width: 100% !important;
+  }
+} */
+
+@media (max-width: 991.89px) {
+  .donation-tools-container {
+    gap: 1.5rem;
+  }
+}
+@media (min-width: 2560px) {
+  .donation-tools .form-select {
+    height: 60px;
+  }
+}

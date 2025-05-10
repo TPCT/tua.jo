@@ -1,0 +1,122 @@
+.empowerment-main-section .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    border-radius: 5px;
+    margin-block: 3rem;
+}
+.empowerment-card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid rgba(4, 30, 66, 0.4);
+    border-radius: 14px;
+}
+.empowerment-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 1rem;
+}
+.empowerment-card img{
+    width: 100%;
+}
+.product-price{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 0.7rem;
+}
+.product-price h4:last-child{
+    color: var(--secondary-color);
+}
+
+.share-btn1:hover {
+    color: var(--primary-color);
+  }
+  
+  .share-overlay1 {
+    opacity: 0;
+    display: none;
+  }
+  .share-overlay1.active {
+    opacity: 1;
+    display: flex;
+  }
+  .share-overlay1 #close {
+    display: flex;
+    cursor: pointer;
+  }
+  .share-overlay1 i {
+    font-size: 1.25rem;
+    color: var(--primary-color);
+  }
+  
+  .share-container {
+    display: flex;
+    gap: 1px;
+    padding: 4px;
+    border-radius: 50px; /* يجعل الحاوية دائرية */
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgba(250, 250, 250, 1);
+  }
+  
+  .share-container a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+  }
+  .share-container a .fa-facebook {
+    border-right: none !important;
+  }
+  .share-container a {
+    text-decoration: none;
+  }
+  .empowerment-card .buttons {
+    display: flex;
+    height: 80px;
+    flex-grow: 0;
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+    overflow: hidden;
+  }
+  .empowerment-card .buttons .type-4-btn{
+    width: calc(100% - 65px);
+  }
+  .filter-inputs-container form{
+    width: 50%;
+    display: flex;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+  .filter-inputs-container form select{
+    flex: 1;
+  }
+  .filter-inputs-container form select:first-child{
+    background-image: url(../assets/Icons/SortAscending.svg);
+  }
+  @media (max-width:1199.89px) {
+    .empowerment-main-section .container{
+        grid-template-columns: 1fr 1fr 1fr;}
+  }
+  @media (max-width:991.89px) {
+    .filter-inputs-container form{
+        width: 75%;
+    }
+  }
+  @media (max-width:767.89px) {
+    .empowerment-main-section .container{
+        grid-template-columns: 1fr 1fr ;}
+  }
+  @media (max-width:576.89px) {
+    .empowerment-main-section .container{
+        grid-template-columns: 1fr ;}
+        .filter-inputs-container form{
+            width: 100%;
+        }
+  }

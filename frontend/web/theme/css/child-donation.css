@@ -1,0 +1,281 @@
+.child-dontaion-container{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+.child-dontaion-container-wrapper{
+  position: relative;
+  width: 900px;
+  max-height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-image.l-screen {
+    width: 400px;
+  }
+.child-image.sm-screen {
+    width: 300px;
+    display: none;
+}
+  
+  .item {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .item img {
+    width: 120px;
+  }
+  
+  .controls {
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .item button {
+    background-color: transparent;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 9999px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    position: relative;
+  }
+  .item button.plus{
+    color: rgba(178, 204, 40, 1);
+    border: 1px solid rgba(178, 204, 40, 1);
+  }
+  .item button.plus::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  inset-inline-start: 0;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(178, 204, 40, 1);
+  transition: all 0.1s ease-out;
+  border-radius: 50%;
+  }
+  .item button.plus:hover::before {
+  width: 100%;
+  z-index: -1;
+}
+  .item button.plus:hover {
+  color: white;
+  z-index: 99;
+}
+  
+  .item button.minus{
+    color: rgba(215, 80, 80, 1);
+    border: 1px solid rgba(215, 80, 80, 1);
+  }
+  
+  .item button.minus::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  inset-inline-start: 0;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(215, 80, 80, 1);
+  transition: all 0.1s ease-out;
+  border-radius: 50%;
+  }
+  .item button.minus:hover::before {
+  width: 100%;
+  z-index: -1;
+}
+  .item button.minus:hover {
+  color: white;
+  z-index: 99;
+}
+  
+  .item div{
+    display: flex;
+    align-items: center;
+  }
+  
+  .controls span {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .controls p {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #666;
+  }
+  
+  .clothes {
+    top: 0%;
+    inset-inline-start: 20%;
+  }
+  
+  .toys {
+    top: 0%;
+    inset-inline-end: 20%;
+  }
+  
+  .school-books {
+    top: 53%;
+    inset-inline-start: 0;
+    transform: translateY(-50%);
+  }
+  
+  .school-bag {
+    top: 53%;
+    inset-inline-end: 0;
+    transform: translateY(-50%);
+  }
+  
+  .food-parcel {
+    bottom: 5%;
+    inset-inline-start: 20%;
+  }
+  
+  .medical-assistance {
+    bottom: 5%;
+    inset-inline-end: 20%;
+  }
+  .item.inactive img{
+    opacity: 0.5;
+  }
+  .item.inactive .quantity-price-box{
+    opacity: 0;
+  }
+  .quantity-price-box{
+    background-color: var(--primary-color);
+    border-radius: 9999px;
+    padding: 0.2rem 0.5rem;
+  }
+  .quantity-price-box h4{
+    color: white;
+    margin-bottom: 0;
+  }
+  .total-box-btns{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  .total-box-btns div{
+    background-image: url(../assets/Images/New-pages/total-bg.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  
+  }
+
+  .total-box-btns div h2{
+    color: white;
+  }
+  .total-box-btns div h4{
+    margin-bottom: 0;
+    color: var(--secondary-color);
+  }
+  #child-donations select{
+    color: var(--primary-color);
+  }
+ @media (max-width:991.888888px) {
+    .child-dontaion-container-wrapper{
+      width: 800px;
+      height: 600px;
+    }
+    .child-image {
+      width: 300px;
+    }
+    .item img {
+      width: 80px;
+    }
+    .item button {
+      width: 30px;
+      height: 30px;
+      font-size: 1.5rem;
+    }
+  }
+  @media (max-width:767.888888px){
+    .child-dontaion-container-wrapper{
+      width: 100%;
+    }
+    .child-image.l-screen {
+      width: 400px;
+      display: none;
+    }
+  .child-image.sm-screen {
+      width: 300px;
+      display: block;
+  }
+  .toys {
+    top: 10%;
+    inset-inline-end: 0%;
+  }
+  
+  .clothes {
+    top: 10%;
+    inset-inline-start: 0%;
+  }
+  .food-parcel {
+    bottom: 5%;
+    inset-inline-start: 0%;
+  }
+  
+  .medical-assistance {
+    bottom: 5%;
+    inset-inline-end: 0%;
+  }
+  }
+  @media (max-width:400px) {
+    .item img {
+      width: 65px;
+    }
+    .item button {
+      width: 25px;
+      height: 25px;
+      font-size: 1rem;
+    }
+    .child-image.sm-screen {
+      width: 240px;
+      display: block;
+  }
+  }
+
+  @media (max-width:500px) {
+    .total-box-btns div{
+      height: 110px;
+      width: 110px;
+    }
+    .total-box-btns{
+      gap: 0.5rem;
+    }
+    
+  }
+  @media (max-width:450px) {
+    .total-box-btns div{
+      height: 90px;
+      width: 90px;
+    }
+    .total-box-btns a{
+      text-align: center;
+      padding-inline: 0.5rem;
+    }
+  }
+ 
+ 

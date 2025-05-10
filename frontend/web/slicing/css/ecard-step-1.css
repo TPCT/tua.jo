@@ -1,0 +1,259 @@
+.ecard-main {
+  background-image: url("../assets/Images/parallax\ image.png");
+  background-repeat: no-repeat;
+  background-size:  100%;
+  background-attachment: fixed;;
+  padding-block: 3rem;
+}
+.arabic-version .ecard-main {
+  background-image: url("../assets/Images/parallax\ image\ filliped.jpeg");
+}
+.ecard-main-container {
+  display: flex;
+  border-radius: 4px;
+  background-color: rgba(250, 250, 250, 1);;
+  border: 1px solid #041e422f;
+  width: 55%;
+}
+.ecard-main-container {
+  display: flex;
+  flex-direction: column;
+}
+.ecard-header {
+  display: flex;
+  width: 100%;
+  
+  border-bottom: 1.5px solid #041e422f;
+  padding-bottom: 0;
+}
+.ecard-header-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+.ecard-header-item .ecard-main-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+.ecard-header-item:nth-child(2) {
+  border-inline: 1px solid #041e422f;
+}
+.ecard-header-item.e-card-recent-step {
+  border-bottom: 4px solid var(--primary-color);
+}
+.ecard-header-item.e-card-passed-step .ecard-main-icon {
+  background-color: #b2cc28;
+}
+.ecard-header-item.e-card-passed-step .ecard-main-icon svg {
+  fill: white;
+}
+.ecard-header-item.e-card-recent-step .ecard-main-icon {
+  background-color: var(--primary-color);
+}
+.ecard-header-item.e-card-recent-step .ecard-main-icon svg {
+  fill: white;
+}
+.ecard-header-item.e-card-next-step .ecard-main-icon {
+  background-color: #041e422f;
+}
+.ecard-header-item.e-card-next-step .ecard-main-icon svg {
+  fill: rgba(4, 30, 66,0.3);
+}
+
+.ecard-header-item-content h5,
+.ecard-header-item-content p{
+  font-weight: 400;
+}
+.ecard-header-item.e-card-next-step h5,
+.ecard-header-item.e-card-next-step p{
+  opacity: 0.5;
+}
+.ecard-header-item-content p{
+  margin-bottom: 0;
+}
+
+.e-card-design {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.ecard {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(4, 30, 66, 0.3);
+  border-radius: 8px;
+}
+
+.ecard img {
+  width: 85%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid transparent;
+}
+
+.ecard input {
+  accent-color: #041e42;
+  width: 26px;
+  height: 26px;
+  margin-bottom: 0.2rem;
+}
+
+.ecard-step-content {
+  padding: 1.5rem;
+}
+
+.check-box-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.check-box-box input {
+  width: 26px;
+  height: 26px;
+}
+.check-box-box p {
+  margin-bottom: 0;
+}
+.ecard-next-btn {
+  border: 1.5px solid #041e422f;
+  padding: 0.4rem 0.6rem;
+  border-radius: 999px;
+  height: 45px;
+  background-color: transparent;
+  padding-inline: 2rem;
+  margin-top: 2rem;
+  font-size: .85rem;
+  font-weight: 400;
+}
+
+.preivew-ecard-modal img {
+  width: 60% !important;
+}
+.preivew-ecard-modal .modal-footer {
+  display: flex;
+  justify-content: center;
+  background-color: #d6e6fc;
+}
+
+
+/* maybe-next-time-modal  */
+.maybe-next-time-modal .modal-footer{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding-inline: 4rem;
+}
+.maybe-next-time-modal .modal-footer button{
+  width: 100%;
+}
+.maybe-next-time-modal .modal-footer input{
+  text-indent: 3rem;
+  background-image: url(../assets/Icons/EnvelopeSimple.svg);
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  width: 79%;
+}
+.maybe-next-time-modal .modal-footer button{
+ 
+  width: 79%;
+}
+.no-thanks-button {
+  border: 1.5px solid #D75050;
+  padding: 0.4rem 2rem;
+  border-radius: 999px;
+  height: 50px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 0.5rem;
+  color: #D75050;
+}
+.maybe-next-time-modal h4 {
+  text-align: center;
+}
+.maybe-next-time-modal img{
+  width: 30% !important;
+}
+
+
+/* donation-reminder popup  */
+.Dontaion-reminder-modal .modal-header{
+  border: none;
+}
+.Dontaion-reminder-modal h4 {
+  text-align: center;
+}
+.Dontaion-reminder-modal .modal-footer {
+  display: flex;
+  justify-content: center;
+  background-color: #d6e6fc6b;
+}
+.Dontaion-reminder-modal img{
+  width: 30% !important;
+}
+/* 2nd-step */
+.payment-method {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-inline: 1.5rem;
+  margin-top: 1rem;
+  border-bottom: 1.5px solid #041e422f;
+  padding-bottom: 1rem;
+}
+
+
+@media (max-width: 1199.88888px) {
+  .ecard-main-container {
+    width: 60%;
+  }
+}
+@media (max-width: 991.88888px) {
+  .ecard-main-container {
+    width: 100%;
+  }
+}
+@media (max-width: 767.88888888px) {
+  .ecard-header-item {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.choosen-ecard-section {
+  padding: 1.5rem;
+}
+
+@media (min-width:1600px) {
+  .e-card-design {
+    gap: 80px;
+  }
+  .ecard-main-container #mobile-number-input{
+    padding-inline-start: 110px !important;
+  }
+}
+.ecard-step-content .type-4-btn{
+  margin-top: 1.5rem;
+}
+

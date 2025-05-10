@@ -1,0 +1,319 @@
+html,
+body {
+    height: 100%;
+}
+a{
+    color: #36517b;
+}
+
+@font-face {
+  font-family: "Cairo";
+  src: url('/fonts/Cairo/Cairo-Regular.ttf');
+}
+
+select.use-font-awsome {
+    font-family: 'Font Awesome Kit', 'Font Awesome 6 Free','Font Awesome 6 Brands', 'Font Awesome 6 Solid', 'Font Awesome 6 Regular' , 'Font Awesome 6 Light', 'Font Awesome 6 Thin', 'Font Awesome 6 Sharp Solid', 'Font Awesome 6 Sharp Regular' !important;
+    font-weight: 400 !important;
+}
+
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.post-icon-1 {
+    background-color: #dddddd;
+}
+
+#media-en-file-fileupload > div > div.col-lg-12 > a.btn.btn-warning.cancel,
+#media-en-file-fileupload > div > div.col-lg-12 > a.btn.btn-danger.delete,
+#media-en-file-fileupload > div > div.col-lg-12 > input.toggle,
+#media-ar-file-fileupload > div > div.col-lg-12 > a.btn.btn-warning.cancel,
+#media-ar-file-fileupload > div > div.col-lg-12 > a.btn.btn-danger.delete,
+#media-ar-file-fileupload > div > div.col-lg-12 > input.toggle,
+#media-file-fileupload > div > div.col-lg-12 > a.btn.btn-warning.cancel,
+#media-file-fileupload > div > div.col-lg-12 > a.btn.btn-danger.delete,
+#media-file-fileupload > div > div.col-lg-12 > input.toggle,
+#media-file-360-fileupload > div > div.col-lg-12 > a.btn.btn-warning.cancel,
+#media-file-360-fileupload > div > div.col-lg-12 > a.btn.btn-danger.delete,
+#media-file-360-fileupload > div > div.col-lg-12 > input.toggle
+
+{
+    display: none;
+}
+
+form .checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+form .checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 0px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+form input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px;
+    line-height: normal;
+}
+
+form input[type=checkbox], input[type=radio] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+form .checkbox input[type="checkbox"], .radio input[type="checkbox"], .checkbox input[type="radio"], .radio input[type="radio"] {
+    opacity: 1;
+    z-index: 1;
+}
+
+form .checkbox label::before, .checkbox label::after {
+    display: none;
+}
+.btn:hover, .btn:focus, .btn.focus {
+    color: #777777;
+    text-decoration: none;
+}
+
+.checkbox input[type="checkbox"]:checked + label::before, .checkbox input[type="radio"]:checked + label::before {
+    background-color: #777777;
+    background: -webkit-gradient(linear, left top, left bottom, from(#777777), to(#9d9d9d));
+    background: -webkit-linear-gradient(top, #777777, #9d9d9d);
+    background: -o-linear-gradient(top, #777777, #9d9d9d);
+}
+
+.checkbox input[type="checkbox"], .radio input[type="checkbox"], .checkbox input[type="radio"], .radio input[type="radio"] {
+    cursor: pointer;
+}
+
+.radio label, .checkbox label {
+    cursor: unset;
+}
+
+.panel-footer, .kv-panel-after {
+    padding-bottom: 40px;
+}
+
+@media print {
+    .noprint {
+        display: none !important;
+    }
+
+    a:link:after, a:visited:after {
+        display: none;
+        content: "";
+    }
+
+    .quick-actions {
+        display: none;
+        content: "";
+    }
+}
+
+#survey-widget #survey-title, #survey-view #survey-title{
+    height: 100%;
+}
+.hidden-modal-right.opened{
+    z-index: 999999;
+}
+
+#survey-widget #survey-title .subcontainer, #survey-view #survey-title .subcontainer{
+    margin: 0;
+}
+
+#survey-title > div.subcontainer.flex > h4{
+    color: #03a9f4;
+}
+
+#setting-form .input-group-btn{
+    width: 18%;
+}
+
+
+
+
+.Differences {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+
+.Differences thead th {
+    text-align: left;
+    border-bottom: 1px solid #000;
+    background: #36517b;
+    color: #fff;
+    padding: 4px;
+    /*display: none;*/
+}
+.Differences tbody th {
+    text-align: right;
+    background: #f3f3f3;
+    width: 3em;
+    padding: 1px 5px;
+    border-right: 1px solid #ccc;
+    vertical-align: top;
+    font-family: Consolas, monospace;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.Differences td {
+    padding: 1px 2px 1px 5px;
+    font-family: Consolas, monospace;
+    font-size: 13px;
+}
+
+
+ .ChangeReplace .Left,
+ .ChangeDelete .Left {
+    background: #fdd;
+}
+
+ .ChangeReplace .Right,
+ .ChangeInsert .Right {
+    background: #dfd;
+}
+
+ .ChangeReplace ins {
+    background: #9e9;
+}
+
+ .ChangeReplace del {
+    background: #e99;
+}
+
+
+.record-info #branch-branch_working_days .btn{
+    width: 14%;
+    background-color: transparent;
+    color: grey;
+}
+.record-info #branch-branch_working_days .btn.active{
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.d-none{
+    display: none;
+}
+
+.record-info .form-group .btn.width-auto{
+    width: auto;
+    text-wrap: pretty;
+}
+
+ .module-title {
+    background-color: #ff6363;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 20px;
+}
+
+.controller-title {
+    background-color: #1b8619;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 20px;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-flex-center-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.breadcrumbs .breadcrumb > li + li:before {
+    content: "/\00a0";
+    padding: 0 5px;
+    color: #212529;
+}
+
+.mt-25px{
+    margin-top: 25px;
+}

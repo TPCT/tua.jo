@@ -1,0 +1,90 @@
+#offered-tenders .value-cards-container{
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+
+.custom-panel .nav-link{
+    width: max-content !important;
+}
+.custom-panel.nav-pills{
+    width: fit-content !important;
+    margin: auto;
+}
+.effective-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.effective-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    border:  1px solid #041e422f;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.effective-card-main-pic img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.effective-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.effective-card-content h4{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+#Testimonials .effective-card-content h4{
+    -webkit-line-clamp: 5; /* number of lines to show */
+    line-clamp: 5;
+}
+.LoadingData{
+    margin-block: 1rem;
+}
+.LoadingData a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.LoadingData:hover a{
+    text-decoration: underline;
+}
+@media (max-width:991.8888px) {
+    #offered-tenders .value-cards-container{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .effective-card{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:767.8888px) {
+    #offered-tenders .value-cards-container{
+        grid-template-columns: 1fr ;
+    }
+    .effective-container{
+        grid-template-columns: 1fr;
+    }
+}
+.offered-tenders-last-section{
+    background-color: rgba(4, 30, 66, 0.03);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+#offered-tenders .container .custom-panel.nav-pills{
+    background-color: transparent;
+}
+
+
+/* ticket 171 */
+.effective-card-main-pic img{
+    width: 100%;
+    object-fit: contain;
+    aspect-ratio: 1/1;
+}

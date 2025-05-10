@@ -1,0 +1,90 @@
+.contact-us-section form button {
+  width: fit-content;
+}
+.contact-us-section form {
+  border-top: 8px solid var(--primary-color);
+  box-shadow: 0px 0px 40px 0px #b6b6b633;
+  padding-inline-start: 2rem;
+  border-radius: 10px;
+}
+.contact-us-communication picture {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-us-communication picture img {
+  width: 30px;
+  height: 30px;
+}
+.contact-us-communication .card-communication {
+  background-color: #fafafa;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  height: 100%;
+}
+.contact-us-communication {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.contact-us-info {
+  padding-inline-start: 3rem;
+}
+@media (max-width: 1320px) {
+  .contact-us-communication {
+    grid-template-columns: 1fr;
+  }
+  .contact-us-info {
+    padding-inline-start: unset;
+  }
+  .contact-us-communication .communication-content h5 {
+    min-height: unset !important;
+  }
+}
+.contact-us-communication .communication-content {
+  flex: 1;
+}
+.contact-us-communication .communication-content h5 {
+  min-height: 64px;
+}
+.head-contact-us-info h3 {
+  color: var(--secondary-color);
+}
+.head-contact-us-info h5 {
+  font-weight: 400;
+}
+/* .contact-us-communication .card-communication h5 {
+  min-height: 65px;
+} */
+
+.contact-us-communication .card-communication .type-4-btn {
+  width: fit-content;
+}
+.map {
+  margin-bottom: -5px;
+}
+.arabic-version .contact-us-info .type-4-btn span {
+  font-size: 0.8rem;
+}
+@media (max-width: 991.8888888px) {
+  .contact-us-info {
+    margin-top: 3rem;
+  }
+}
+.arabic-version .contact-us-communication .card-communication .type-4-btn {
+  white-space: nowrap;
+}
+
+/* ticket154 */
+
+@media (min-width: 991.8888888px) {
+  .contact-us-info {
+    padding-inline-end: 2rem !important;
+  }
+}

@@ -1,0 +1,187 @@
+.donation-as-guest-or-login-container{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+/* .donation-as-guest-or-login-container p {
+    opacity: 0.5;
+} */
+.vistor-checkout{
+    flex: 1;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    border: 1px solid #041e422f;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    height: fit-content;
+}
+.vistor-checkout::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color:#041e422f ;
+    inset-inline-end:-1.75rem ;
+    top: 0;
+    z-index: -1;
+}
+.or-line h4{
+    margin-top: 13rem;
+    background-color: white;
+}
+.vistor-checkout-form{
+    text-align: start;
+}
+.donation-login{
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgba(247, 248, 249, 1);
+    padding: 1rem 2rem;
+}
+.ecard-next-btn{
+    border: 1.5px solid #041e422f;
+    padding: 0.4rem 0.6rem;
+    border-radius: 999px;
+    height: 50px;
+    background-color: transparent;
+    padding-inline: 2rem;
+    margin-top: 2rem;
+}
+
+.continue-border{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.continue-border p{
+    margin-bottom: 0;
+}
+.continue-border div{
+    flex: 1;
+    height: 1px;
+    width: 100%;
+    background-color:#041e422f ;
+}
+.login-methods{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.login-methods a{
+    margin-top: 2rem;
+}
+.not-member{
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+.not-member p {
+    margin-bottom: 0;
+}
+.not-member a {
+    color: var(--secondary-color);
+    margin-bottom: 0;
+    text-decoration: none;
+}
+.not-member a:hover{
+    text-decoration: underline;
+}
+.vistor-checkout-form .row a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.vistor-checkout-form .row a:hover{
+    text-decoration: underline;
+}
+.vistor-checkout-form input[type="email"]{
+    background-image: url(../assets/Icons/input-EnvelopeSimple.svg);
+    background-repeat: no-repeat;
+    background-position: center left 15px;
+    text-indent: 40px;
+}
+.arabic-version .vistor-checkout-form input[type="email"]{
+    background-position: center right 15px;
+}
+.vistor-checkout-form input[id="password"]{
+    background-image: url(../assets/Icons/input-lock.svg);
+    background-repeat: no-repeat;
+    background-position: center left 15px;
+    text-indent: 40px;
+}
+.arabic-version .vistor-checkout-form input[id="password"]{
+    background-position: center right 15px;
+}
+.vistor-checkout .vistor-checkout-name-input{
+    background-image: url(../assets/Icons/User.svg);
+    background-repeat: no-repeat;
+    background-position: center left 15px;
+    text-indent: 40px;
+
+}
+.arabic-version .vistor-checkout-name-input{
+    background-position: center right 15px;
+
+}
+
+.type-77-btn {
+    border: 1.5px solid var(--primary-color);
+    border-radius: 999px;
+    height: 45px;
+    width: 45px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.5rem;
+    color: rgba(250, 250, 250, 1);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .type-77-btn::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    inset-inline-start: 0;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(250, 250, 250, 1);
+    transition: all 0.3s ease-out;
+    border-radius: 999px;
+  }
+
+  .type-77-btn i,
+  .type-77-btn span {
+    color: rgba(250, 250, 250, 1);
+  }
+  .type-77-btn svg {
+    fill: rgba(250, 250, 250, 1);
+  }
+  .type-77-btn i,
+  .type-77-btn span,
+  .type-77-btn svg {
+    z-index: 2;
+  }
+
+
+@media (max-width:991.8888888px) {
+    .donation-as-guest-or-login-container{
+        flex-direction: column;
+    }
+    .or-line h4{
+        margin-block: 2rem;
+        text-align: center;
+    }
+    .vistor-checkout::after{
+        display: none;
+    }
+}

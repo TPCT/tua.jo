@@ -1,0 +1,11 @@
+.ecard-main{
+    background-image: url(../assets/Images/New-pages/parallax\ image.png) !important;
+}
+/* ticket 169 */
+.cv-upload-input span{
+    font-size: .85rem;
+    font-weight: 400;
+}
+.cv-upload-input p{
+    margin-bottom: .5rem !important;
+}

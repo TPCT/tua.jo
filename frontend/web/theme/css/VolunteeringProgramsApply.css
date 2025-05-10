@@ -1,0 +1,37 @@
+.VolunteeringProgramsApply-content-container {
+  padding: 30px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+}
+.VolunteeringProgramsApply-head {
+  margin-bottom: 20px;
+}
+.VolunteeringProgramsApply-content-container picture {
+  border-radius: 10px;
+  overflow: hidden;
+  display: block;
+}
+
+
+/* ticket77 */
+
+.shareicoon{
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-section .VolunteeringProgramsApply-content-container .VolunteeringProgramsApply-head .type-9-btn .shareicoon svg{
+  width: 40px;
+  height: 40px;
+}
+.contact-us-section .VolunteeringProgramsApply-content-container .VolunteeringProgramsApply-head .type-9-btn{
+  background-color: unset;
+}
+.VolunteeringProgramsApply-content li a {
+  font-size: .9rem !important;
+}

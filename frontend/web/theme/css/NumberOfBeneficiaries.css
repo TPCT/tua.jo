@@ -1,0 +1,212 @@
+select {
+  height: auto;
+}
+.number-of-beneficiaries-option-one .nav {
+  border: 0;
+  justify-content: space-between;
+}
+
+.number-of-beneficiaries-option-one .nav-tabs .nav-link {
+  border-radius: 50px;
+  border: 1.5px solid var(--border-color);
+  color: var(--primary-color);
+  width: 180px;
+}
+
+.number-of-beneficiaries-option-one .nav-tabs .nav-item.show .nav-link,
+.number-of-beneficiaries-option-one .nav-tabs .nav-link.active {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.number-of-beneficiaries-option-one
+  .number-of-beneficiaries-option-one-content {
+  padding: 1.2rem;
+  border: 1.5px solid var(--border-color);
+  border-radius: 10px;
+}
+.number-of-beneficiaries-option-one
+  .number-of-beneficiaries-option-one-content
+  h3 {
+  border-bottom: 1.5px solid var(--border-color);
+  padding-bottom: 1rem;
+}
+.number-of-beneficiaries-option-two .number p {
+  color: var(--secondary-color);
+}
+.number-of-beneficiaries-option-two picture {
+  border-radius: 10px;
+  display: block;
+  overflow: hidden;
+}
+.number-of-beneficiaries-option-two
+  .number-of-beneficiaries-option-two-content-container:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+.number-of-beneficiaries-slider-section {
+  overflow: hidden;
+  background-color: #F7F8F9;
+}
+.number-of-beneficiaries-slider-section .slick-track {
+  padding: 45px 0;
+}
+.slick-initialized .slick-slide {
+  padding: 0 20px;
+}
+.slick-initialized .slick-current {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  margin-top: 1.5rem;
+}
+.slick-initialized .slick-current picture img {
+  aspect-ratio: 364 / 210 !important;
+}
+.slick-initialized .slick-current picture img {
+  aspect-ratio: 481 / 353 !important;
+}
+.slick-initialized .slick-slide p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: 0;
+}
+.number-of-beneficiaries-slider-section .slick-prev,
+.number-of-beneficiaries-slider-section .slick-next {
+  top: auto;
+  bottom: 8%;
+  transform: translate(-50%, -50%);
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.number-of-beneficiaries-slider-section .slick-next {
+  right: 32%;
+}
+.number-of-beneficiaries-slider-section .slick-prev {
+  left: 35%;
+}
+.number-of-beneficiaries-slider-section .slick-arrow::before {
+  content: "";
+}
+.number-of-beneficiaries-slider-section .slick-arrow i {
+  font-size: 1rem;
+  color: #fff;
+}
+
+@media (max-width: 1439.98px) {
+  .number-of-beneficiaries-slider-section .slick-next {
+    right: 30%;
+  }
+  .number-of-beneficiaries-slider-section .slick-prev {
+    left: 33%;
+  }
+}
+@media (max-width: 1199.98px) {
+  
+}
+.number-of-beneficiaries-slider-section {
+  direction: ltr;
+}
+.arabic-version
+  .number-of-beneficiaries-slider-section
+  .latest-news-added-content {
+  direction: rtl;
+}
+
+.slick-initialized .slick-current .box-latest-news-added .buttons{
+  scale: 0.91;
+}
+#NumberOfBeneficiariesOptionOne select{
+  color: var(--primary-color);
+}
+
+
+/* ticket 160  */
+@media (max-width: 1439.98px) {
+  .number-of-beneficiaries-slider-section .slick-next {
+    right: 30%;
+  }
+  .number-of-beneficiaries-slider-section .slick-prev {
+    left: 33.5%;
+  }
+}
+@media (min-width: 1439.98px) {
+  .number-of-beneficiaries-slider-section .slick-prev {
+    left: 34.5%;
+  }
+}
+@media (min-width:1439.98px)and (max-width:1791px) {
+  .number-of-beneficiaries-slider-section .slick-prev {
+    left: 35%;
+  }
+}
+@media (max-width:1199.89px) {
+  .number-of-beneficiaries-slider-section .slick-next {
+    right: 25.5%;
+  }
+  .number-of-beneficiaries-slider-section .slick-prev {
+    left: 30%;
+  }
+}
+@media (max-width:991.89px) {
+  .number-of-beneficiaries-slider-section .slick-next {
+    right: 10.5%;
+  }
+  .number-of-beneficiaries-slider-section .slick-prev {
+    left: 15%;
+  }
+}
+@media (max-width:767.89px) {
+  .number-of-beneficiaries-slider-section .slick-next {
+    right: 8.5%;
+  }
+  .number-of-beneficiaries-slider-section .slick-prev {
+    left: 15%;
+  }
+}
+@media (max-width:580.89px) {
+  .number-of-beneficiaries-slider-section .slick-next {
+    right: 2%;
+  }
+  .number-of-beneficiaries-slider-section .slick-prev {
+    left: 10%;
+  }
+}
+@media (max-width:480.89px) {
+  .number-of-beneficiaries-slider-section .slick-next,.number-of-beneficiaries-slider-section .slick-prev {
+    bottom:-3rem;
+  }
+  .number-of-beneficiaries-slider-section .slick-prev {
+    left: 33%;
+  }
+  .number-of-beneficiaries-slider-section .slick-next {
+    right: 23%;
+  }
+}
+@media (min-width:2400px) {
+  .number-of-beneficiaries-slider-section .slick-prev {
+    left: 33.5%;
+  }
+}
+
+
+/* ticket 152 */
+/* .arabic-version .number-of-beneficiaries-option-one .latest-added-card  .box-latest-news-added .latest-news-added-content .latest-news-added-info .buttons .type-3-btn span{
+  font-weight: 400 !important;
+}  */
+
+.arabic-version .slick-list span{
+  font-weight: 400 !important;
+
+}
+@media (min-width:1599.89px) {
+  .slick-initialized .slick-current {
+    transform: scale(1.05);
+    margin-top: 0.8rem;
+}
+}

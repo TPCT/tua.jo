@@ -1,0 +1,2195 @@
+[
+    {
+        "name_ar": "أفغانستان",
+        "name_en": "Afghanistan",
+        "native_name": "افغانستان",
+        "capital": "كابول",
+        "en_capital": "Kabul",
+        "alpha_2": "AF",
+        "alpha_3": "AFG",
+        "phone_code": "93",
+        "nationality_en": "Afghan",
+        "nationality_ar": "أفغاني",
+        "guid": "d6ea5160-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "كابول",
+            "en": "Kabul"
+        }
+    },
+    {
+        "name_ar": "ألبانيا",
+        "name_en": "Albania",
+        "native_name": "Shqipëria",
+        "capital": "تيرانا",
+        "en_capital": "Tirana",
+        "alpha_2": "AL",
+        "alpha_3": "ALB",
+        "phone_code": "355",
+        "nationality_en": "Albanian",
+        "nationality_ar": "ألباني",
+        "guid": "0974066f-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "تيرانا",
+            "en": "Tirana"
+        }
+    },
+    {
+        "name_ar": "الجزائر",
+        "name_en": "Algeria",
+        "native_name": "الجزائر",
+        "capital": "الجزائر",
+        "en_capital": "Algiers",
+        "alpha_2": "DZ",
+        "alpha_3": "DZA",
+        "phone_code": "213",
+        "nationality_en": "Algerian",
+        "nationality_ar": "جزائري",
+        "guid": "3f30853b-284a-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "الجزائر",
+            "en": "Algiers"
+        }
+    },
+    {
+        "name_ar": "الأرجنتين",
+        "name_en": "Argentina",
+        "native_name": "Argentina",
+        "capital": "بوينس آيرس",
+        "en_capital": "Buenos Aires",
+        "alpha_2": "AR",
+        "alpha_3": "ARG",
+        "phone_code": "54",
+        "nationality_en": "Argentine",
+        "nationality_ar": "الأرجنتين",
+        "guid": "efc00e75-284a-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "بوينس آيرس",
+            "en": "Buenos Aires"
+        }
+    },
+    {
+        "name_ar": "أرمينيا",
+        "name_en": "Armenia",
+        "native_name": "Հայաստան",
+        "capital": "يريفان",
+        "en_capital": "Yerevan",
+        "alpha_2": "AM",
+        "alpha_3": "ARM",
+        "phone_code": "374",
+        "nationality_en": "Armenian",
+        "nationality_ar": "أرميني",
+        "guid": "ef096233-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "يريفان",
+            "en": "Yerevan"
+        }
+    },
+    {
+        "name_ar": "أستراليا",
+        "name_en": "Australia",
+        "native_name": "Australia",
+        "capital": "كانبيرا",
+        "en_capital": "Canberra",
+        "alpha_2": "AU",
+        "alpha_3": "AUS",
+        "phone_code": "61",
+        "nationality_en": "Australian",
+        "nationality_ar": "أسترالي",
+        "guid": "398e67b8-f021-e411-941e-00155d01f403",
+        "capital_info": {
+            "ar": "كانبيرا",
+            "en": "Canberra"
+        }
+    },
+    {
+        "name_ar": "النمسا",
+        "name_en": "Austria",
+        "native_name": "Österreich",
+        "capital": "فيينا",
+        "en_capital": "Vienna",
+        "alpha_2": "AT",
+        "alpha_3": "AUT",
+        "phone_code": "43",
+        "nationality_en": "Austrian",
+        "nationality_ar": "نمساوي",
+        "guid": "e8c09ec0-8f03-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "فيينا",
+            "en": "Vienna"
+        }
+    },
+    {
+        "name_ar": "أذربيجان",
+        "name_en": "Azerbaijan",
+        "native_name": "Azərbaycan",
+        "capital": "باكو",
+        "en_capital": "Baku",
+        "alpha_2": "AZ",
+        "alpha_3": "AZE",
+        "phone_code": "994",
+        "nationality_en": "Azerbaijani",
+        "nationality_ar": "أذربيجاني",
+        "guid": "1bdcd31d-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "باكو",
+            "en": "Baku"
+        }
+    },
+    {
+        "name_ar": "جزر البهاما",
+        "name_en": "The Bahamas",
+        "native_name": "Bahamas",
+        "capital": "ناسو",
+        "en_capital": "Nassau",
+        "alpha_2": "BS",
+        "alpha_3": "BHS",
+        "phone_code": "1242",
+        "nationality_en": "Bahamian",
+        "nationality_ar": "باهامى",
+        "guid": "9fa513de-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "ناسو",
+            "en": "Nassau"
+        }
+    },
+    {
+        "name_ar": "البحرين",
+        "name_en": "Bahrain",
+        "native_name": "‏البحرين",
+        "capital": "المنامة",
+        "en_capital": "Manama",
+        "alpha_2": "BH",
+        "alpha_3": "BHR",
+        "phone_code": "973",
+        "nationality_en": "Bahraini",
+        "nationality_ar": "بحريني",
+        "guid": "9b6d9038-8803-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "المنامة",
+            "en": "Manama"
+        }
+    },
+    {
+        "name_ar": "بنغلاديش",
+        "name_en": "Bangladesh",
+        "native_name": "Bangladesh",
+        "capital": "دكا",
+        "en_capital": "Dhaka",
+        "alpha_2": "BD",
+        "alpha_3": "BGD",
+        "phone_code": "880",
+        "nationality_en": "Bangladeshi",
+        "nationality_ar": "بنجلاديشي",
+        "guid": "dd9db8c3-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "دكا",
+            "en": "Dhaka"
+        }
+    },
+    {
+        "name_ar": "بيلاروس",
+        "name_en": "Belarus",
+        "native_name": "Белару́сь",
+        "capital": "مينسك",
+        "en_capital": "Minsk",
+        "alpha_2": "BY",
+        "alpha_3": "BLR",
+        "phone_code": "375",
+        "nationality_en": "Belarusian",
+        "nationality_ar": "بيلاروسي",
+        "guid": "373f54e0-9d4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "مينسك",
+            "en": "Minsk"
+        }
+    },
+    {
+        "name_ar": "بلجيكا",
+        "name_en": "Belgium",
+        "native_name": "België",
+        "capital": "بروكسل",
+        "en_capital": "Brussels",
+        "alpha_2": "BE",
+        "alpha_3": "BEL",
+        "phone_code": "32",
+        "nationality_en": "Belgian",
+        "nationality_ar": "بلجيكي",
+        "guid": "68c8eadf-374a-e911-9501-00155d85d423",
+        "capital_info": {
+            "ar": "بروكسل",
+            "en": "Brussels"
+        }
+    },
+    {
+        "name_ar": "بوتان",
+        "name_en": "Bhutan",
+        "native_name": "ʼbrug-yul",
+        "capital": "تيمفو",
+        "en_capital": "Thimphu",
+        "alpha_2": "BT",
+        "alpha_3": "BTN",
+        "phone_code": "975",
+        "nationality_en": "Bhutanese",
+        "nationality_ar": "بوتاني",
+        "guid": "535d03c5-9203-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "تيمفو",
+            "en": "Thimphu"
+        }
+    },
+    {
+        "name_ar": "بوليفيا",
+        "name_en": "Bolivia",
+        "native_name": "Bolivia",
+        "capital": "سوكري",
+        "en_capital": "Sucre",
+        "alpha_2": "BO",
+        "alpha_3": "BOL",
+        "phone_code": "591",
+        "nationality_en": "Bolivian",
+        "nationality_ar": "بوليفي",
+        "guid": "19fe0af1-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "سوكري",
+            "en": "Sucre"
+        }
+    },
+    {
+        "name_ar": "البرازيل",
+        "name_en": "Brazil",
+        "native_name": "Brasil",
+        "capital": "برازيليا",
+        "en_capital": "Brasília",
+        "alpha_2": "BR",
+        "alpha_3": "BRA",
+        "phone_code": "55",
+        "nationality_en": "Brazilian",
+        "nationality_ar": "برازيلي",
+        "guid": "b7618e7c-284a-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "برازيليا",
+            "en": "Brasília"
+        }
+    },
+    {
+        "name_ar": "بروناي",
+        "name_en": "Brunei",
+        "native_name": "Negara Brunei Darussalam",
+        "capital": "بندر سيري بيغاوان",
+        "en_capital": "Bandar Seri Begawan",
+        "alpha_2": "BN",
+        "alpha_3": "BRN",
+        "phone_code": "673",
+        "nationality_en": "Bruneian",
+        "nationality_ar": "بروناى",
+        "guid": "4a4610cd-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "بندر سيري بيغاوان",
+            "en": "Bandar Seri Begawan"
+        }
+    },
+    {
+        "name_ar": "بلغاريا",
+        "name_en": "Bulgaria",
+        "native_name": "България",
+        "capital": "صوفيا",
+        "en_capital": "Sofia",
+        "alpha_2": "BG",
+        "alpha_3": "BGR",
+        "phone_code": "359",
+        "nationality_en": "Bulgarian",
+        "nationality_ar": "بلغاري",
+        "guid": "8dd236b3-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "صوفيا",
+            "en": "Sofia"
+        }
+    },
+    {
+        "name_ar": "بوركينا فاسو",
+        "name_en": "Burkina Faso",
+        "native_name": "Burkina Faso",
+        "capital": "واغادوغو",
+        "en_capital": "Ouagadougou",
+        "alpha_2": "BF",
+        "alpha_3": "BFA",
+        "phone_code": "226",
+        "nationality_en": "Burkinabé",
+        "nationality_ar": "بوركينا فاسو",
+        "guid": "0c1011ca-9f4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "واغادوغو",
+            "en": "Ouagadougou"
+        }
+    },
+    {
+        "name_ar": "الكاميرون",
+        "name_en": "Cameroon",
+        "native_name": "Cameroon",
+        "capital": "ياوندي",
+        "en_capital": "Yaoundé",
+        "alpha_2": "CM",
+        "alpha_3": "CMR",
+        "phone_code": "237",
+        "nationality_en": "Cameroonian",
+        "nationality_ar": "كاميروني",
+        "guid": "1ea98688-9e4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "ياوندي",
+            "en": "Yaoundé"
+        }
+    },
+    {
+        "name_ar": "كندا",
+        "name_en": "Canada",
+        "native_name": "Canada",
+        "capital": "أوتاوا",
+        "en_capital": "Ottawa",
+        "alpha_2": "CA",
+        "alpha_3": "CAN",
+        "phone_code": "1",
+        "nationality_en": "Canadian",
+        "nationality_ar": "كندي",
+        "guid": "04690a64-8303-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "أوتاوا",
+            "en": "Ottawa"
+        }
+    },
+    {
+        "name_ar": "الرأس الأخضر",
+        "name_en": "Cape Verde",
+        "native_name": "Cabo Verde",
+        "capital": "برايا",
+        "en_capital": "Praia",
+        "alpha_2": "CV",
+        "alpha_3": "CPV",
+        "phone_code": "238",
+        "nationality_en": "Cabo Verdean",
+        "nationality_ar": "الرأس الأخضر",
+        "guid": "98f84fd6-9d4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "برايا",
+            "en": "Praia"
+        }
+    },
+    {
+        "name_ar": "تشاد",
+        "name_en": "Chad",
+        "native_name": "Tchad",
+        "capital": "نجامينا",
+        "en_capital": "N'Djamena",
+        "alpha_2": "TD",
+        "alpha_3": "TCD",
+        "phone_code": "235",
+        "nationality_en": "Chadian",
+        "nationality_ar": "تشادي",
+        "guid": "cc0d2c19-9d4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "نجامينا",
+            "en": "N'Djamena"
+        }
+    },
+    {
+        "name_ar": "شيلي",
+        "name_en": "Chile",
+        "native_name": "Chile",
+        "capital": "سانتياغو",
+        "en_capital": "Santiago",
+        "alpha_2": "CL",
+        "alpha_3": "CHL",
+        "phone_code": "56",
+        "nationality_en": "Chilean",
+        "nationality_ar": "شيلي",
+        "guid": "58195ba5-9103-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "سانتياغو",
+            "en": "Santiago"
+        }
+    },
+    {
+        "name_ar": "الصين",
+        "name_en": "China",
+        "native_name": "中国",
+        "capital": "بكين",
+        "en_capital": "Beijing",
+        "alpha_2": "CN",
+        "alpha_3": "CHN",
+        "phone_code": "86",
+        "nationality_en": "Chinese",
+        "nationality_ar": "صينى",
+        "guid": "7a888a11-2a4a-e911-80c6-00155d85d41f",
+        "capital_info": {
+            "ar": "بكين",
+            "en": "Beijing"
+        }
+    },
+    {
+        "name_ar": "جزر القمر",
+        "name_en": "Comoros",
+        "native_name": "Komori",
+        "capital": "موروني",
+        "en_capital": "Moroni",
+        "alpha_2": "KM",
+        "alpha_3": "COM",
+        "phone_code": "269",
+        "nationality_en": "Comoran",
+        "nationality_ar": "جزر القمر",
+        "guid": "ec837d7e-9e4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "موروني",
+            "en": "Moroni"
+        }
+    },
+    {
+        "name_ar": "جمهورية الكونغو",
+        "name_en": "Republic of the Congo",
+        "native_name": "République du Congo",
+        "capital": "برازافيل",
+        "en_capital": "Brazzaville",
+        "alpha_2": "CG",
+        "alpha_3": "COG",
+        "phone_code": "242",
+        "nationality_en": "Congolese",
+        "nationality_ar": "كونغولي",
+        "guid": "f47bfdc2-9e4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "برازافيل",
+            "en": "Brazzaville"
+        }
+    },
+    {
+        "name_ar": "كوستاريكا",
+        "name_en": "Costa Rica",
+        "native_name": "Costa Rica",
+        "capital": "سان خوسيه",
+        "en_capital": "San José",
+        "alpha_2": "CR",
+        "alpha_3": "CRI",
+        "phone_code": "506",
+        "nationality_en": "Costa Rican",
+        "nationality_ar": "كوستاريكي",
+        "guid": "2542ac35-8c03-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "سان خوسيه",
+            "en": "San José"
+        }
+    },
+    {
+        "name_ar": "كرواتيا",
+        "name_en": "Croatia",
+        "native_name": "Hrvatska",
+        "capital": "زغرب",
+        "en_capital": "Zagreb",
+        "alpha_2": "HR",
+        "alpha_3": "HRV",
+        "phone_code": "385",
+        "nationality_en": "Croatian",
+        "nationality_ar": "كرواتية",
+        "guid": "07aa909c-9e4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "زغرب",
+            "en": "Zagreb"
+        }
+    },
+    {
+        "name_ar": "كوبا",
+        "name_en": "Cuba",
+        "native_name": "Cuba",
+        "capital": "هافانا",
+        "en_capital": "Havana",
+        "alpha_2": "CU",
+        "alpha_3": "CUB",
+        "phone_code": "53",
+        "nationality_en": "Cuban",
+        "nationality_ar": "كوبي",
+        "guid": "118c5e8d-9e4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "هافانا",
+            "en": "Havana"
+        }
+    },
+    {
+        "name_ar": "قبرص",
+        "name_en": "Cyprus",
+        "native_name": "Κύπρος",
+        "capital": "نيقوسيا",
+        "en_capital": "Nicosia",
+        "alpha_2": "CY",
+        "alpha_3": "CYP",
+        "phone_code": "357",
+        "nationality_en": "Cypriot",
+        "nationality_ar": "قبرصي",
+        "guid": "291b8a38-f4bf-e811-950a-00155d82d306",
+        "capital_info": {
+            "ar": "نيقوسيا",
+            "en": "Nicosia"
+        }
+    },
+    {
+        "name_ar": "الدانمرك",
+        "name_en": "Denmark",
+        "native_name": "Danmark",
+        "capital": "كوبنهاغن",
+        "en_capital": "Copenhagen",
+        "alpha_2": "DK",
+        "alpha_3": "DNK",
+        "phone_code": "45",
+        "nationality_en": "Danish",
+        "nationality_ar": "دانماركي",
+        "guid": "815d2beb-8f03-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "كوبنهاغن",
+            "en": "Copenhagen"
+        }
+    },
+    {
+        "name_ar": "إكوادور",
+        "name_en": "Ecuador",
+        "native_name": "Ecuador",
+        "capital": "كيتو",
+        "en_capital": "Quito",
+        "alpha_2": "EC",
+        "alpha_3": "ECU",
+        "phone_code": "593",
+        "nationality_en": "Ecuadorian",
+        "nationality_ar": "إكوادور",
+        "guid": "cb2b4f66-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "كيتو",
+            "en": "Quito"
+        }
+    },
+    {
+        "name_ar": "مصر",
+        "name_en": "Egypt",
+        "native_name": "مصر‎",
+        "capital": "القاهرة",
+        "en_capital": "Cairo",
+        "alpha_2": "EG",
+        "alpha_3": "EGY",
+        "phone_code": "20",
+        "nationality_en": "Egyptian",
+        "nationality_ar": "مصري",
+        "guid": "bdbf62cc-8d03-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "القاهرة",
+            "en": "Cairo"
+        }
+    },
+    {
+        "name_ar": "السلفادور",
+        "name_en": "El Salvador",
+        "native_name": "El Salvador",
+        "capital": "سان سلفادور",
+        "en_capital": "San Salvador",
+        "alpha_2": "SV",
+        "alpha_3": "SLV",
+        "phone_code": "503",
+        "nationality_en": "Salvadoran",
+        "nationality_ar": "سلفادوري",
+        "guid": "8a8eddea-9003-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "سان سلفادور",
+            "en": "San Salvador"
+        }
+    },
+    {
+        "name_ar": "غينيا الاستوائية",
+        "name_en": "Equatorial Guinea",
+        "native_name": "Guinea Ecuatorial",
+        "capital": "مالابو",
+        "en_capital": "Malabo",
+        "alpha_2": "GQ",
+        "alpha_3": "GNQ",
+        "phone_code": "240",
+        "nationality_en": "Equatorial Guinean",
+        "nationality_ar": "غيني  استوائي",
+        "guid": "b14bcd6c-9e4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "مالابو",
+            "en": "Malabo"
+        }
+    },
+    {
+        "name_ar": "إريتريا",
+        "name_en": "Eritrea",
+        "native_name": "ኤርትራ",
+        "capital": "أسمرة",
+        "en_capital": "Asmara",
+        "alpha_2": "ER",
+        "alpha_3": "ERI",
+        "phone_code": "291",
+        "nationality_en": "Eritrean",
+        "nationality_ar": "إريتري",
+        "guid": "61038e4c-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "أسمرة",
+            "en": "Asmara"
+        }
+    },
+    {
+        "name_ar": "إستونيا",
+        "name_en": "Estonia",
+        "native_name": "Eesti",
+        "capital": "تالين",
+        "en_capital": "Tallinn",
+        "alpha_2": "EE",
+        "alpha_3": "EST",
+        "phone_code": "372",
+        "nationality_en": "Estonian",
+        "nationality_ar": "إستوني",
+        "guid": "f6c4b555-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "تالين",
+            "en": "Tallinn"
+        }
+    },
+    {
+        "name_ar": "فنلندا",
+        "name_en": "Finland",
+        "native_name": "Suomi",
+        "capital": "هلسنكي",
+        "en_capital": "Helsinki",
+        "alpha_2": "FI",
+        "alpha_3": "FIN",
+        "phone_code": "358",
+        "nationality_en": "Finnish",
+        "nationality_ar": "فنلندي",
+        "guid": "2ebdd575-9103-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "هلسنكي",
+            "en": "Helsinki"
+        }
+    },
+    {
+        "name_ar": "فرنسا",
+        "name_en": "France",
+        "native_name": "France",
+        "capital": "باريس",
+        "en_capital": "Paris",
+        "alpha_2": "FR",
+        "alpha_3": "FRA",
+        "phone_code": "33",
+        "nationality_en": "French",
+        "nationality_ar": "فرنسي",
+        "guid": "dd201b4b-8b03-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "باريس",
+            "en": "Paris"
+        }
+    },
+    {
+        "name_ar": "غابون",
+        "name_en": "Gabon",
+        "native_name": "Gabon",
+        "capital": "ليبرفيل",
+        "en_capital": "Libreville",
+        "alpha_2": "GA",
+        "alpha_3": "GAB",
+        "phone_code": "241",
+        "nationality_en": "Gabonese",
+        "nationality_ar": "جابوني",
+        "guid": "d45f114e-9e4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "ليبرفيل",
+            "en": "Libreville"
+        }
+    },
+    {
+        "name_ar": "غامبيا",
+        "name_en": "The Gambia",
+        "native_name": "Gambia",
+        "capital": "بانجول",
+        "en_capital": "Banjul",
+        "alpha_2": "GM",
+        "alpha_3": "GMB",
+        "phone_code": "220",
+        "nationality_en": "Gambian",
+        "nationality_ar": "غامبيي",
+        "guid": "411e865e-9e4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "بانجول",
+            "en": "Banjul"
+        }
+    },
+    {
+        "name_ar": "جورجيا",
+        "name_en": "Georgia",
+        "native_name": "საქართველო",
+        "capital": "تبليسي",
+        "en_capital": "Tbilisi",
+        "alpha_2": "GE",
+        "alpha_3": "GEO",
+        "phone_code": "995",
+        "nationality_en": "Georgian",
+        "nationality_ar": "جورجي",
+        "guid": "5d3f9b14-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "تبليسي",
+            "en": "Tbilisi"
+        }
+    },
+    {
+        "name_ar": "ألمانيا",
+        "name_en": "Germany",
+        "native_name": "Deutschland",
+        "capital": "برلين",
+        "en_capital": "Berlin",
+        "alpha_2": "DE",
+        "alpha_3": "DEU",
+        "phone_code": "49",
+        "nationality_en": "German",
+        "nationality_ar": "ألماني",
+        "guid": "b9d2ad69-8a03-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "برلين",
+            "en": "Berlin"
+        }
+    },
+    {
+        "name_ar": "غانا",
+        "name_en": "Ghana",
+        "native_name": "Ghana",
+        "capital": "أكرا",
+        "en_capital": "Accra",
+        "alpha_2": "GH",
+        "alpha_3": "GHA",
+        "phone_code": "233",
+        "nationality_en": "Ghanaian",
+        "nationality_ar": "غاني",
+        "guid": "70cfa663-9e4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "أكرا",
+            "en": "Accra"
+        }
+    },
+    {
+        "name_ar": "طارق",
+        "name_en": "Gibraltar",
+        "native_name": "Gibraltar",
+        "capital": "طارق",
+        "en_capital": "Gibraltar",
+        "alpha_2": "GI",
+        "alpha_3": "GIB",
+        "phone_code": "350",
+        "nationality_en": "Gibraltar",
+        "nationality_ar": "طارق",
+        "guid": "4a437ff7-1f04-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "طارق",
+            "en": "Gibraltar"
+        }
+    },
+    {
+        "name_ar": "اليونان",
+        "name_en": "Greece",
+        "native_name": "Ελλάδα",
+        "capital": "أثينا",
+        "en_capital": "Athens",
+        "alpha_2": "GR",
+        "alpha_3": "GRC",
+        "phone_code": "30",
+        "nationality_en": "Greek",
+        "nationality_ar": "إغريقي",
+        "guid": "1b316b92-9f4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "أثينا",
+            "en": "Athens"
+        }
+    },
+    {
+        "name_ar": "غينيا",
+        "name_en": "Guinea",
+        "native_name": "Guinée",
+        "capital": "كوناكري",
+        "en_capital": "Conakry",
+        "alpha_2": "GN",
+        "alpha_3": "GIN",
+        "phone_code": "224",
+        "nationality_en": "Guinean",
+        "nationality_ar": "غيني",
+        "guid": "b14bcd6c-9e4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "كوناكري",
+            "en": "Conakry"
+        }
+    },
+    {
+        "name_ar": "غينيا",
+        "name_en": "Guinea",
+        "native_name": "Guinée",
+        "capital": "كوناكري",
+        "en_capital": "Conakry",
+        "alpha_2": "GN",
+        "alpha_3": "GIN",
+        "phone_code": "224",
+        "nationality_en": "Guinean",
+        "nationality_ar": "غيني",
+        "guid": "29171a6b-9e4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "كوناكري",
+            "en": "Conakry"
+        }
+    },
+    {
+        "name_ar": "هايتي",
+        "name_en": "Haiti",
+        "native_name": "Haïti",
+        "capital": "Port-au-Prince",
+        "en_capital": "Port-au-Prince",
+        "alpha_2": "HT",
+        "alpha_3": "HTI",
+        "phone_code": "509",
+        "nationality_en": "Haitian",
+        "nationality_ar": "هايتي",
+        "guid": "1b469f7d-9f4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "Port-au-Prince",
+            "en": "Port-au-Prince"
+        }
+    },
+    {
+        "name_ar": "هندوراس",
+        "name_en": "Honduras",
+        "native_name": "Honduras",
+        "capital": "تيغوسيغالبا",
+        "en_capital": "Tegucigalpa",
+        "alpha_2": "HN",
+        "alpha_3": "HND",
+        "phone_code": "504",
+        "nationality_en": "Honduran",
+        "nationality_ar": "هندوراسي",
+        "guid": "8ec28df1-8f03-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "تيغوسيغالبا",
+            "en": "Tegucigalpa"
+        }
+    },
+    {
+        "name_ar": "هونغ كونغ",
+        "name_en": "Hong Kong",
+        "native_name": "香港",
+        "capital": "مدينة فيكتوريا",
+        "en_capital": "City of Victoria",
+        "alpha_2": "HK",
+        "alpha_3": "HKG",
+        "phone_code": "852",
+        "nationality_en": "Hong Kong",
+        "nationality_ar": "هونغ كونغ",
+        "guid": "43d7a1c0-9703-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "مدينة فيكتوريا",
+            "en": "City of Victoria"
+        }
+    },
+    {
+        "name_ar": "هنغاريا",
+        "name_en": "Hungary",
+        "native_name": "Magyarország",
+        "capital": "بودابست",
+        "en_capital": "Budapest",
+        "alpha_2": "HU",
+        "alpha_3": "HUN",
+        "phone_code": "36",
+        "nationality_en": "Hungarian",
+        "nationality_ar": "هنغاري",
+        "guid": "cc2792ee-9b4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "بودابست",
+            "en": "Budapest"
+        }
+    },
+    {
+        "name_ar": "أيسلندا",
+        "name_en": "Iceland",
+        "native_name": "Ísland",
+        "capital": "ريكيافيك",
+        "en_capital": "Reykjavik",
+        "alpha_2": "IS",
+        "alpha_3": "ISL",
+        "phone_code": "354",
+        "nationality_en": "Icelandic",
+        "nationality_ar": "أيسلندا",
+        "guid": "b39fa2f5-7a64-eb11-b92f-00155d821418",
+        "capital_info": {
+            "ar": "ريكيافيك",
+            "en": "Reykjavik"
+        }
+    },
+    {
+        "name_ar": "الهند",
+        "name_en": "India",
+        "native_name": "भारत",
+        "capital": "نيودلهي",
+        "en_capital": "New Delhi",
+        "alpha_2": "IN",
+        "alpha_3": "IND",
+        "phone_code": "91",
+        "nationality_en": "Indian",
+        "nationality_ar": "هندي",
+        "guid": "aafa9a44-294a-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "نيودلهي",
+            "en": "New Delhi"
+        }
+    },
+    {
+        "name_ar": "إندونيسيا",
+        "name_en": "Indonesia",
+        "native_name": "Indonesia",
+        "capital": "جاكرتا",
+        "en_capital": "Jakarta",
+        "alpha_2": "ID",
+        "alpha_3": "IDN",
+        "phone_code": "62",
+        "nationality_en": "Indonesian",
+        "nationality_ar": "إندونيسي",
+        "guid": "d3637378-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "جاكرتا",
+            "en": "Jakarta"
+        }
+    },
+    {
+        "name_ar": "إيران",
+        "name_en": "Iran",
+        "native_name": "Irān",
+        "capital": "طهران",
+        "en_capital": "Tehran",
+        "alpha_2": "IR",
+        "alpha_3": "IRN",
+        "phone_code": "98",
+        "nationality_en": "Iranian",
+        "nationality_ar": "إيراني",
+        "guid": "e5a63283-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "طهران",
+            "en": "Tehran"
+        }
+    },
+    {
+        "name_ar": "العراق",
+        "name_en": "Iraq",
+        "native_name": "العراق",
+        "capital": "بغداد",
+        "en_capital": "Baghdad",
+        "alpha_2": "IQ",
+        "alpha_3": "IRQ",
+        "phone_code": "964",
+        "nationality_en": "Iraqi",
+        "nationality_ar": "عراقي",
+        "guid": "d9bcd5dc-8803-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "بغداد",
+            "en": "Baghdad"
+        }
+    },
+    {
+        "name_ar": "إيطاليا",
+        "name_en": "Italy",
+        "native_name": "Italia",
+        "capital": "روما",
+        "en_capital": "Rome",
+        "alpha_2": "IT",
+        "alpha_3": "ITA",
+        "phone_code": "39",
+        "nationality_en": "Italian",
+        "nationality_ar": "إيطالي",
+        "guid": "e0ea24f7-8903-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "روما",
+            "en": "Rome"
+        }
+    },
+    {
+        "name_ar": "جامايكا",
+        "name_en": "Jamaica",
+        "native_name": "Jamaica",
+        "capital": "كينغستون",
+        "en_capital": "Kingston",
+        "alpha_2": "JM",
+        "alpha_3": "JAM",
+        "phone_code": "1876",
+        "nationality_en": "Jamaican",
+        "nationality_ar": "جامايكي",
+        "guid": "f37b5dae-9d4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "كينغستون",
+            "en": "Kingston"
+        }
+    },
+    {
+        "name_ar": "اليابان",
+        "name_en": "Japan",
+        "native_name": "日本",
+        "capital": "طوكيو",
+        "en_capital": "Tokyo",
+        "alpha_2": "JP",
+        "alpha_3": "JPN",
+        "phone_code": "81",
+        "nationality_en": "Japanese",
+        "nationality_ar": "ياباني",
+        "guid": "88d12e13-9003-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "طوكيو",
+            "en": "Tokyo"
+        }
+    },
+    {
+        "name_ar": "الأردن",
+        "name_en": "Jordan",
+        "native_name": "الأردن",
+        "capital": "عمان",
+        "en_capital": "Amman",
+        "alpha_2": "JO",
+        "alpha_3": "JOR",
+        "phone_code": "962",
+        "nationality_en": "Jordanian",
+        "nationality_ar": "أردني",
+        "guid": "a568b857-a62e-e411-9427-00155d01f403",
+        "capital_info": {
+            "ar": "عمان",
+            "en": "Amman"
+        }
+    },
+    {
+        "name_ar": "كازاخستان",
+        "name_en": "Kazakhstan",
+        "native_name": "Қазақстан",
+        "capital": "أستانا",
+        "en_capital": "Astana",
+        "alpha_2": "KZ",
+        "alpha_3": "KAZ",
+        "phone_code": "76",
+        "nationality_en": "Kazakhstani",
+        "nationality_ar": "كازاخستاني",
+        "guid": "b401c0fe-374a-e911-9501-00155d85d423",
+        "capital_info": {
+            "ar": "أستانا",
+            "en": "Astana"
+        }
+    },
+    {
+        "name_ar": "كينيا",
+        "name_en": "Kenya",
+        "native_name": "Kenya",
+        "capital": "نيروبي",
+        "en_capital": "Nairobi",
+        "alpha_2": "KE",
+        "alpha_3": "KEN",
+        "phone_code": "254",
+        "nationality_en": "Kenyan",
+        "nationality_ar": "كيني",
+        "guid": "5c992fb8-9f4f-e911-9501-00155d85d423",
+        "capital_info": {
+            "ar": "نيروبي",
+            "en": "Nairobi"
+        }
+    },
+    {
+        "name_ar": "الكويت",
+        "name_en": "Kuwait",
+        "native_name": "الكويت",
+        "capital": "مدينة الكويت",
+        "en_capital": "Kuwait City",
+        "alpha_2": "KW",
+        "alpha_3": "KWT",
+        "phone_code": "965",
+        "nationality_en": "Kuwaiti",
+        "nationality_ar": "كويتي",
+        "guid": "1ea91b7c-8803-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "مدينة الكويت",
+            "en": "Kuwait City"
+        }
+    },
+    {
+        "name_ar": "لبنان",
+        "name_en": "Lebanon",
+        "native_name": "لبنان",
+        "capital": "بيروت",
+        "en_capital": "Beirut",
+        "alpha_2": "LB",
+        "alpha_3": "LBN",
+        "phone_code": "961",
+        "nationality_en": "Lebanese",
+        "nationality_ar": "لبناني",
+        "guid": "73984140-aa55-e711-94a7-00155d000316",
+        "capital_info": {
+            "ar": "بيروت",
+            "en": "Beirut"
+        }
+    },
+    {
+        "name_ar": "ليبريا",
+        "name_en": "Liberia",
+        "native_name": "Liberia",
+        "capital": "مونروفيا",
+        "en_capital": "Monrovia",
+        "alpha_2": "LR",
+        "alpha_3": "LBR",
+        "phone_code": "231",
+        "nationality_en": "Liberian",
+        "nationality_ar": "ليبيري",
+        "guid": "3ceaafca-9e4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "مونروفيا",
+            "en": "Monrovia"
+        }
+    },
+    {
+        "name_ar": "ليبيا",
+        "name_en": "Libya",
+        "native_name": "‏ليبيا",
+        "capital": "طرابلس",
+        "en_capital": "Tripoli",
+        "alpha_2": "LY",
+        "alpha_3": "LBY",
+        "phone_code": "218",
+        "nationality_en": "Libyan",
+        "nationality_ar": "ليبي",
+        "guid": "889f8270-8d03-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "طرابلس",
+            "en": "Tripoli"
+        }
+    },
+    {
+        "name_ar": "ليختنشتاين",
+        "name_en": "Liechtenstein",
+        "native_name": "Liechtenstein",
+        "capital": "فادوز",
+        "en_capital": "Vaduz",
+        "alpha_2": "LI",
+        "alpha_3": "LIE",
+        "phone_code": "423",
+        "nationality_en": "Liechtenstein",
+        "nationality_ar": "ليختنشتاين",
+        "guid": "a1d81dfa-9e4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "فادوز",
+            "en": "Vaduz"
+        }
+    },
+    {
+        "name_ar": "ليتوانيا",
+        "name_en": "Lithuania",
+        "native_name": "Lietuva",
+        "capital": "فيلنيوس",
+        "en_capital": "Vilnius",
+        "alpha_2": "LT",
+        "alpha_3": "LTU",
+        "phone_code": "370",
+        "nationality_en": "Lithuanian",
+        "nationality_ar": "لتواني",
+        "guid": "005655d4-9e4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "فيلنيوس",
+            "en": "Vilnius"
+        }
+    },
+    {
+        "name_ar": "لكسمبرغ",
+        "name_en": "Luxembourg",
+        "native_name": "Luxembourg",
+        "capital": "لكسمبرغ",
+        "en_capital": "Luxembourg",
+        "alpha_2": "LU",
+        "alpha_3": "LUX",
+        "phone_code": "352",
+        "nationality_en": "Luxembourg",
+        "nationality_ar": "لكسمبرغ",
+        "guid": "89644ebb-9e4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "لكسمبرغ",
+            "en": "Luxembourg"
+        }
+    },
+    {
+        "name_ar": "مدغشقر",
+        "name_en": "Madagascar",
+        "native_name": "Madagasikara",
+        "capital": "أنتاناناريفو",
+        "en_capital": "Antananarivo",
+        "alpha_2": "MG",
+        "alpha_3": "MDG",
+        "phone_code": "261",
+        "nationality_en": "Malagasy",
+        "nationality_ar": "مدغشقري",
+        "guid": "0016c533-9f4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "أنتاناناريفو",
+            "en": "Antananarivo"
+        }
+    },
+    {
+        "name_ar": "ماليزيا",
+        "name_en": "Malaysia",
+        "native_name": "Malaysia",
+        "capital": "كوالالمبور",
+        "en_capital": "Kuala Lumpur",
+        "alpha_2": "MY",
+        "alpha_3": "MYS",
+        "phone_code": "60",
+        "nationality_en": "Malaysian",
+        "nationality_ar": "ماليزي",
+        "guid": "4de00b50-294a-e911-9501-00155d85d423",
+        "capital_info": {
+            "ar": "كوالالمبور",
+            "en": "Kuala Lumpur"
+        }
+    },
+    {
+        "name_ar": "جزر المالديف",
+        "name_en": "Maldives",
+        "native_name": "Maldives",
+        "capital": "ماليه",
+        "en_capital": "Malé",
+        "alpha_2": "MV",
+        "alpha_3": "MDV",
+        "phone_code": "960",
+        "nationality_en": "Maldivian",
+        "nationality_ar": "جزر المالديف",
+        "guid": "bf5adf02-9f4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "ماليه",
+            "en": "Malé"
+        }
+    },
+    {
+        "name_ar": "مالطة",
+        "name_en": "Malta",
+        "native_name": "Malta",
+        "capital": "فاليتا",
+        "en_capital": "Valletta",
+        "alpha_2": "MT",
+        "alpha_3": "MLT",
+        "phone_code": "356",
+        "nationality_en": "Maltese",
+        "nationality_ar": "مالطي",
+        "guid": "95e90227-9f4f-e911-9501-00155d85d423",
+        "capital_info": {
+            "ar": "فاليتا",
+            "en": "Valletta"
+        }
+    },
+    {
+        "name_ar": "المكسيك",
+        "name_en": "Mexico",
+        "native_name": "México",
+        "capital": "مكسيكو سيتي",
+        "en_capital": "Mexico City",
+        "alpha_2": "MX",
+        "alpha_3": "MEX",
+        "phone_code": "52",
+        "nationality_en": "Mexican",
+        "nationality_ar": "مكسيكي",
+        "guid": "62463e28-2917-e911-80bf-00155d82d31e",
+        "capital_info": {
+            "ar": "مكسيكو سيتي",
+            "en": "Mexico City"
+        }
+    },
+    {
+        "name_ar": "منغوليا",
+        "name_en": "Mongolia",
+        "native_name": "Монгол улс",
+        "capital": "أولان باتور",
+        "en_capital": "Ulan Bator",
+        "alpha_2": "MN",
+        "alpha_3": "MNG",
+        "phone_code": "976",
+        "nationality_en": "Mongolian",
+        "nationality_ar": "منغولي",
+        "guid": "9926a00d-2404-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "أولان باتور",
+            "en": "Ulan Bator"
+        }
+    },
+    {
+        "name_ar": "المغرب",
+        "name_en": "Morocco",
+        "native_name": "المغرب",
+        "capital": "الرباط",
+        "en_capital": "Rabat",
+        "alpha_2": "MA",
+        "alpha_3": "MAR",
+        "phone_code": "212",
+        "nationality_en": "Moroccan",
+        "nationality_ar": "مغربي",
+        "guid": "1c163b34-284a-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "الرباط",
+            "en": "Rabat"
+        }
+    },
+    {
+        "name_ar": "موزامبيق",
+        "name_en": "Mozambique",
+        "native_name": "Moçambique",
+        "capital": "مابوتو",
+        "en_capital": "Maputo",
+        "alpha_2": "MZ",
+        "alpha_3": "MOZ",
+        "phone_code": "258",
+        "nationality_en": "Mozambican",
+        "nationality_ar": "موزمبيقي",
+        "guid": "fc663846-9f4f-e911-9501-00155d85d423",
+        "capital_info": {
+            "ar": "مابوتو",
+            "en": "Maputo"
+        }
+    },
+    {
+        "name_ar": "نيبال",
+        "name_en": "Nepal",
+        "native_name": "नपल",
+        "capital": "كاتماندو",
+        "en_capital": "Kathmandu",
+        "alpha_2": "NP",
+        "alpha_3": "NPL",
+        "phone_code": "977",
+        "nationality_en": "Nepali",
+        "nationality_ar": "نيبال",
+        "guid": "9a7dd568-9f4f-e911-9501-00155d85d423",
+        "capital_info": {
+            "ar": "كاتماندو",
+            "en": "Kathmandu"
+        }
+    },
+    {
+        "name_ar": "نيوزيلندا",
+        "name_en": "New Zealand",
+        "native_name": "New Zealand",
+        "capital": "ولينغتون",
+        "en_capital": "Wellington",
+        "alpha_2": "NZ",
+        "alpha_3": "NZL",
+        "phone_code": "64",
+        "nationality_en": "New Zealand",
+        "nationality_ar": "نيوزيلندا",
+        "guid": "16dd7eef-374a-e911-80c6-00155d85d41f",
+        "capital_info": {
+            "ar": "ولينغتون",
+            "en": "Wellington"
+        }
+    },
+    {
+        "name_ar": "النيجر",
+        "name_en": "Niger",
+        "native_name": "Niger",
+        "capital": "نيامي",
+        "en_capital": "Niamey",
+        "alpha_2": "NE",
+        "alpha_3": "NER",
+        "phone_code": "227",
+        "nationality_en": "Nigerien",
+        "nationality_ar": "نيجري",
+        "guid": "439b4c70-9f4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "نيامي",
+            "en": "Niamey"
+        }
+    },
+    {
+        "name_ar": "النيجر",
+        "name_en": "Niger",
+        "native_name": "Niger",
+        "capital": "نيامي",
+        "en_capital": "Niamey",
+        "alpha_2": "NE",
+        "alpha_3": "NER",
+        "phone_code": "227",
+        "nationality_en": "Nigerien",
+        "nationality_ar": "نيجري",
+        "guid": "e10c3c78-9f4f-e911-9501-00155d85d423",
+        "capital_info": {
+            "ar": "نيامي",
+            "en": "Niamey"
+        }
+    },
+    {
+        "name_ar": "نيجيريا",
+        "name_en": "Nigeria",
+        "native_name": "Nigeria",
+        "capital": "أبوجا",
+        "en_capital": "Abuja",
+        "alpha_2": "NG",
+        "alpha_3": "NGA",
+        "phone_code": "234",
+        "nationality_en": "Nigerian",
+        "nationality_ar": "نيجيريا",
+        "guid": "439b4c70-9f4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "أبوجا",
+            "en": "Abuja"
+        }
+    },
+    {
+        "name_ar": "كوريا الشمالية",
+        "name_en": "North Korea",
+        "native_name": "북한",
+        "capital": "بيونغ يانغ",
+        "en_capital": "Pyongyang",
+        "alpha_2": "KP",
+        "alpha_3": "PRK",
+        "phone_code": "850",
+        "nationality_en": "North Korean",
+        "nationality_ar": "كوري شمالي",
+        "guid": "289b7665-284a-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "بيونغ يانغ",
+            "en": "Pyongyang"
+        }
+    },
+    {
+        "name_ar": "النرويج",
+        "name_en": "Norway",
+        "native_name": "Norge",
+        "capital": "أوسلو",
+        "en_capital": "Oslo",
+        "alpha_2": "NO",
+        "alpha_3": "NOR",
+        "phone_code": "47",
+        "nationality_en": "Norwegian",
+        "nationality_ar": "نرويجي",
+        "guid": "91de4e57-9f4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "أوسلو",
+            "en": "Oslo"
+        }
+    },
+    {
+        "name_ar": "عمان",
+        "name_en": "Oman",
+        "native_name": "عمان",
+        "capital": "مسقط",
+        "en_capital": "Muscat",
+        "alpha_2": "OM",
+        "alpha_3": "OMN",
+        "phone_code": "968",
+        "nationality_en": "Omani",
+        "nationality_ar": "عماني",
+        "guid": "60f4273c-8d03-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "مسقط",
+            "en": "Muscat"
+        }
+    },
+    {
+        "name_ar": "باكستان",
+        "name_en": "Pakistan",
+        "native_name": "Pakistan",
+        "capital": "إسلام أباد",
+        "en_capital": "Islamabad",
+        "alpha_2": "PK",
+        "alpha_3": "PAK",
+        "phone_code": "92",
+        "nationality_en": "Pakistani",
+        "nationality_ar": "باكستاني",
+        "guid": "e7fd02a1-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "إسلام أباد",
+            "en": "Islamabad"
+        }
+    },
+    {
+        "name_ar": "فلسطين",
+        "name_en": "Palestine",
+        "native_name": "فلسطين",
+        "capital": "القدس",
+        "en_capital": "Jerusalem",
+        "alpha_2": "PS",
+        "alpha_3": "PSE",
+        "phone_code": "970",
+        "nationality_en": "Palestinian",
+        "nationality_ar": "فلسطيني",
+        "guid": "9b391cbb-90e5-e711-94ba-00155d01f427",
+        "capital_info": {
+            "ar": "القدس",
+            "en": "Jerusalem"
+        }
+    },
+    {
+        "name_ar": "بنما",
+        "name_en": "Panama",
+        "native_name": "Panamá",
+        "capital": "مدينة بنما",
+        "en_capital": "Panama City",
+        "alpha_2": "PA",
+        "alpha_3": "PAN",
+        "phone_code": "507",
+        "nationality_en": "Panamanian",
+        "nationality_ar": "بنمي",
+        "guid": "a261add5-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "مدينة بنما",
+            "en": "Panama City"
+        }
+    },
+    {
+        "name_ar": "باراغواي",
+        "name_en": "Paraguay",
+        "native_name": "Paraguay",
+        "capital": "أسونسيون",
+        "en_capital": "Asunción",
+        "alpha_2": "PY",
+        "alpha_3": "PRY",
+        "phone_code": "595",
+        "nationality_en": "Paraguayan",
+        "nationality_ar": "باراغواياني",
+        "guid": "b86b2f95-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "أسونسيون",
+            "en": "Asunción"
+        }
+    },
+    {
+        "name_ar": "بيرو",
+        "name_en": "Peru",
+        "native_name": "Perú",
+        "capital": "ليما",
+        "en_capital": "Lima",
+        "alpha_2": "PE",
+        "alpha_3": "PER",
+        "phone_code": "51",
+        "nationality_en": "Peruvian",
+        "nationality_ar": "بيروفي",
+        "guid": "bfb494fa-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "ليما",
+            "en": "Lima"
+        }
+    },
+    {
+        "name_ar": "الفلبين",
+        "name_en": "Philippines",
+        "native_name": "Pilipinas",
+        "capital": "مانيلا",
+        "en_capital": "Manila",
+        "alpha_2": "PH",
+        "alpha_3": "PHL",
+        "phone_code": "63",
+        "nationality_en": "Philippine",
+        "nationality_ar": "الفلبين",
+        "guid": "e10f8edc-2404-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "مانيلا",
+            "en": "Manila"
+        }
+    },
+    {
+        "name_ar": "بولندا",
+        "name_en": "Poland",
+        "native_name": "Polska",
+        "capital": "وارسو",
+        "en_capital": "Warsaw",
+        "alpha_2": "PL",
+        "alpha_3": "POL",
+        "phone_code": "48",
+        "nationality_en": "Polish",
+        "nationality_ar": "بولندي",
+        "guid": "d016cade-9b4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "وارسو",
+            "en": "Warsaw"
+        }
+    },
+    {
+        "name_ar": "البرتغال",
+        "name_en": "Portugal",
+        "native_name": "Portugal",
+        "capital": "لشبونة",
+        "en_capital": "Lisbon",
+        "alpha_2": "PT",
+        "alpha_3": "PRT",
+        "phone_code": "351",
+        "nationality_en": "Portuguese",
+        "nationality_ar": "برتغالي",
+        "guid": "eb014661-8d03-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "لشبونة",
+            "en": "Lisbon"
+        }
+    },
+    {
+        "name_ar": "بورتوريكو",
+        "name_en": "Puerto Rico",
+        "native_name": "Puerto Rico",
+        "capital": "سان خوان",
+        "en_capital": "San Juan",
+        "alpha_2": "PR",
+        "alpha_3": "PRI",
+        "phone_code": "1787",
+        "nationality_en": "Puerto Rican",
+        "nationality_ar": "بورتوريكو",
+        "guid": "8224720e-384a-e911-80c6-00155d85d41f",
+        "capital_info": {
+            "ar": "سان خوان",
+            "en": "San Juan"
+        }
+    },
+    {
+        "name_ar": "قطر",
+        "name_en": "Qatar",
+        "native_name": "قطر",
+        "capital": "الدوحة",
+        "en_capital": "Doha",
+        "alpha_2": "QA",
+        "alpha_3": "QAT",
+        "phone_code": "974",
+        "nationality_en": "Qatari",
+        "nationality_ar": "قطري",
+        "guid": "fb881e89-8703-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "الدوحة",
+            "en": "Doha"
+        }
+    },
+    {
+        "name_ar": "رومانيا",
+        "name_en": "Romania",
+        "native_name": "România",
+        "capital": "بوخارست",
+        "en_capital": "Bucharest",
+        "alpha_2": "RO",
+        "alpha_3": "ROU",
+        "phone_code": "40",
+        "nationality_en": "Romanian",
+        "nationality_ar": "روماني",
+        "guid": "40cc59af-8d03-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "بوخارست",
+            "en": "Bucharest"
+        }
+    },
+    {
+        "name_ar": "روسيا",
+        "name_en": "Russia",
+        "native_name": "Россия",
+        "capital": "موسكو",
+        "en_capital": "Moscow",
+        "alpha_2": "RU",
+        "alpha_3": "RUS",
+        "phone_code": "7",
+        "nationality_en": "Russian",
+        "nationality_ar": "روسي",
+        "guid": "498b0456-294a-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "موسكو",
+            "en": "Moscow"
+        }
+    },
+    {
+        "name_ar": "المملكة العربية السعودية",
+        "name_en": "Saudi Arabia",
+        "native_name": "العربية السعودية",
+        "capital": "الرياض",
+        "en_capital": "Riyadh",
+        "alpha_2": "SA",
+        "alpha_3": "SAU",
+        "phone_code": "966",
+        "nationality_en": "Saudi",
+        "nationality_ar": "سعودي",
+        "guid": "5f50c5fb-8303-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "الرياض",
+            "en": "Riyadh"
+        }
+    },
+    {
+        "name_ar": "صربيا",
+        "name_en": "Serbia",
+        "native_name": "Србија",
+        "capital": "بلغراد",
+        "en_capital": "Belgrade",
+        "alpha_2": "RS",
+        "alpha_3": "SRB",
+        "phone_code": "381",
+        "nationality_en": "Serbian",
+        "nationality_ar": "صربي",
+        "guid": "0e80ebd8-9f4f-e911-9501-00155d85d423",
+        "capital_info": {
+            "ar": "بلغراد",
+            "en": "Belgrade"
+        }
+    },
+    {
+        "name_ar": "سنغافورة",
+        "name_en": "Singapore",
+        "native_name": "Singapore",
+        "capital": "سنغافورة",
+        "en_capital": "Singapore",
+        "alpha_2": "SG",
+        "alpha_3": "SGP",
+        "phone_code": "65",
+        "nationality_en": "Singaporean",
+        "nationality_ar": "سنغافوري",
+        "guid": "da486913-2204-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "سنغافورة",
+            "en": "Singapore"
+        }
+    },
+    {
+        "name_ar": "سلوفاكيا",
+        "name_en": "Slovakia",
+        "native_name": "Slovensko",
+        "capital": "براتيسلافا",
+        "en_capital": "Bratislava",
+        "alpha_2": "SK",
+        "alpha_3": "SVK",
+        "phone_code": "421",
+        "nationality_en": "Slovak",
+        "nationality_ar": "سلوفاكيا",
+        "guid": "3e95db26-9e4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "براتيسلافا",
+            "en": "Bratislava"
+        }
+    },
+    {
+        "name_ar": "سلوفينيا",
+        "name_en": "Slovenia",
+        "native_name": "Slovenija",
+        "capital": "ليوبليانا",
+        "en_capital": "Ljubljana",
+        "alpha_2": "SI",
+        "alpha_3": "SVN",
+        "phone_code": "386",
+        "nationality_en": "Slovenian",
+        "nationality_ar": "سلوفيني",
+        "guid": "8abfbfcb-9503-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "ليوبليانا",
+            "en": "Ljubljana"
+        }
+    },
+    {
+        "name_ar": "الصومال",
+        "name_en": "Somalia",
+        "native_name": "Soomaaliya",
+        "capital": "مقديشو",
+        "en_capital": "Mogadishu",
+        "alpha_2": "SO",
+        "alpha_3": "SOM",
+        "phone_code": "252",
+        "nationality_en": "Somali",
+        "nationality_ar": "صومالي",
+        "guid": "4e2c6bb8-284a-e911-9501-00155d85d423",
+        "capital_info": {
+            "ar": "مقديشو",
+            "en": "Mogadishu"
+        }
+    },
+    {
+        "name_ar": "جنوب أفريقيا",
+        "name_en": "South Africa",
+        "native_name": "South Africa",
+        "capital": "بريتوريا",
+        "en_capital": "Pretoria",
+        "alpha_2": "ZA",
+        "alpha_3": "ZAF",
+        "phone_code": "27",
+        "nationality_en": "South African",
+        "nationality_ar": "جنوب افريقيي",
+        "guid": "4e9303c1-9d4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "بريتوريا",
+            "en": "Pretoria"
+        }
+    },
+    {
+        "name_ar": "كوريا الجنوبية",
+        "name_en": "South Korea",
+        "native_name": "대한민국",
+        "capital": "سيول",
+        "en_capital": "Seoul",
+        "alpha_2": "KR",
+        "alpha_3": "KOR",
+        "phone_code": "82",
+        "nationality_en": "South Korean",
+        "nationality_ar": "كوري جنوبي",
+        "guid": "eab66757-284a-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "سيول",
+            "en": "Seoul"
+        }
+    },
+    {
+        "name_ar": "إسبانيا",
+        "name_en": "Spain",
+        "native_name": "España",
+        "capital": "مدريد",
+        "en_capital": "Madrid",
+        "alpha_2": "ES",
+        "alpha_3": "ESP",
+        "phone_code": "34",
+        "nationality_en": "Spanish",
+        "nationality_ar": "إسباني",
+        "guid": "a3046443-9c4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "مدريد",
+            "en": "Madrid"
+        }
+    },
+    {
+        "name_ar": "سري لانكا",
+        "name_en": "Sri Lanka",
+        "native_name": "śrī laṃkāva",
+        "capital": "كولومبو",
+        "en_capital": "Colombo",
+        "alpha_2": "LK",
+        "alpha_3": "LKA",
+        "phone_code": "94",
+        "nationality_en": "Sri Lankan",
+        "nationality_ar": "سري لانكي",
+        "guid": "e8e08e17-8803-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "كولومبو",
+            "en": "Colombo"
+        }
+    },
+    {
+        "name_ar": "السودان",
+        "name_en": "Sudan",
+        "native_name": "السودان",
+        "capital": "الخرطوم",
+        "en_capital": "Khartoum",
+        "alpha_2": "SD",
+        "alpha_3": "SDN",
+        "phone_code": "249",
+        "nationality_en": "Sudanese",
+        "nationality_ar": "سوداني",
+        "guid": "66b0d4b3-284a-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "الخرطوم",
+            "en": "Khartoum"
+        }
+    },
+    {
+        "name_ar": "السويد",
+        "name_en": "Sweden",
+        "native_name": "Sverige",
+        "capital": "ستوكهولم",
+        "en_capital": "Stockholm",
+        "alpha_2": "SE",
+        "alpha_3": "SWE",
+        "phone_code": "46",
+        "nationality_en": "Swedish",
+        "nationality_ar": "سويدي",
+        "guid": "dd48a7ae-8c03-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "ستوكهولم",
+            "en": "Stockholm"
+        }
+    },
+    {
+        "name_ar": "سويسرا",
+        "name_en": "Switzerland",
+        "native_name": "Schweiz",
+        "capital": "برن",
+        "en_capital": "Bern",
+        "alpha_2": "CH",
+        "alpha_3": "CHE",
+        "phone_code": "41",
+        "nationality_en": "Swiss",
+        "nationality_ar": "سويسري",
+        "guid": "5f56493b-350f-e911-94f8-00155d00d61b",
+        "capital_info": {
+            "ar": "برن",
+            "en": "Bern"
+        }
+    },
+    {
+        "name_ar": "سوريا",
+        "name_en": "Syria",
+        "native_name": "سوريا",
+        "capital": "دمشق",
+        "en_capital": "Damascus",
+        "alpha_2": "SY",
+        "alpha_3": "SYR",
+        "phone_code": "963",
+        "nationality_en": "Syrian",
+        "nationality_ar": "سوري",
+        "guid": "67fc903c-9e4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "دمشق",
+            "en": "Damascus"
+        }
+    },
+    {
+        "name_ar": "تنزانيا",
+        "name_en": "Tanzania",
+        "native_name": "Tanzania",
+        "capital": "دودوما",
+        "en_capital": "Dodoma",
+        "alpha_2": "TZ",
+        "alpha_3": "TZA",
+        "phone_code": "255",
+        "nationality_en": "Tanzanian",
+        "nationality_ar": "تنزاني",
+        "guid": "154a4224-9d4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "دودوما",
+            "en": "Dodoma"
+        }
+    },
+    {
+        "name_ar": "تايلند",
+        "name_en": "Thailand",
+        "native_name": "ประเทศไทย",
+        "capital": "بانكوك",
+        "en_capital": "Bangkok",
+        "alpha_2": "TH",
+        "alpha_3": "THA",
+        "phone_code": "66",
+        "nationality_en": "Thai",
+        "nationality_ar": "التايلاندي",
+        "guid": "d66cad01-9d4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "بانكوك",
+            "en": "Bangkok"
+        }
+    },
+    {
+        "name_ar": "توغو",
+        "name_en": "Togo",
+        "native_name": "Togo",
+        "capital": "لومي",
+        "en_capital": "Lomé",
+        "alpha_2": "TG",
+        "alpha_3": "TGO",
+        "phone_code": "228",
+        "nationality_en": "Togolese",
+        "nationality_ar": "توغواني",
+        "guid": "d00d2c19-9d4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "لومي",
+            "en": "Lomé"
+        }
+    },
+    {
+        "name_ar": "تونس",
+        "name_en": "Tunisia",
+        "native_name": "تونس",
+        "capital": "تونس",
+        "en_capital": "Tunis",
+        "alpha_2": "TN",
+        "alpha_3": "TUN",
+        "phone_code": "216",
+        "nationality_en": "Tunisian",
+        "nationality_ar": "تونسي",
+        "guid": "bf502a46-284a-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "تونس",
+            "en": "Tunis"
+        }
+    },
+    {
+        "name_ar": "تركيا",
+        "name_en": "Turkey",
+        "native_name": "Türkiye",
+        "capital": "أنقرة",
+        "en_capital": "Ankara",
+        "alpha_2": "TR",
+        "alpha_3": "TUR",
+        "phone_code": "90",
+        "nationality_en": "Turkish",
+        "nationality_ar": "تركي",
+        "guid": "00fbc7c5-2304-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "أنقرة",
+            "en": "Ankara"
+        }
+    },
+    {
+        "name_ar": "تركمانستان",
+        "name_en": "Turkmenistan",
+        "native_name": "Türkmenistan",
+        "capital": "عشق أباد",
+        "en_capital": "Ashgabat",
+        "alpha_2": "TM",
+        "alpha_3": "TKM",
+        "phone_code": "993",
+        "nationality_en": "Turkmen",
+        "nationality_ar": "تركمانستان",
+        "guid": "2be1fb11-9d4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "عشق أباد",
+            "en": "Ashgabat"
+        }
+    },
+    {
+        "name_ar": "أوكرانيا",
+        "name_en": "Ukraine",
+        "native_name": "Україна",
+        "capital": "كييف",
+        "en_capital": "Kiev",
+        "alpha_2": "UA",
+        "alpha_3": "UKR",
+        "phone_code": "380",
+        "nationality_en": "Ukrainian",
+        "nationality_ar": "أوكراني",
+        "guid": "27b98f90-294a-e911-80c6-00155d85d41f",
+        "capital_info": {
+            "ar": "كييف",
+            "en": "Kiev"
+        }
+    },
+    {
+        "name_ar": "الإمارات العربية المتحدة",
+        "name_en": "United Arab Emirates",
+        "native_name": "دولة الإمارات العربية المتحدة",
+        "capital": "أبو ظبي",
+        "en_capital": "Abu Dhabi",
+        "alpha_2": "AE",
+        "alpha_3": "ARE",
+        "phone_code": "971",
+        "nationality_en": "Emirati",
+        "nationality_ar": "الإمارات العربية المتحدة",
+        "guid": "3fd036d1-1922-e411-941e-00155d01f403",
+        "capital_info": {
+            "ar": "أبو ظبي",
+            "en": "Abu Dhabi"
+        }
+    },
+    {
+        "name_ar": "المملكة المتحدة",
+        "name_en": "United Kingdom",
+        "native_name": "United Kingdom",
+        "capital": "لندن",
+        "en_capital": "London",
+        "alpha_2": "GB",
+        "alpha_3": "GBR",
+        "phone_code": "44",
+        "nationality_en": "British",
+        "nationality_ar": "بريطاني",
+        "guid": "41630b67-d1a0-e611-9481-00155d850a00",
+        "capital_info": {
+            "ar": "لندن",
+            "en": "London"
+        }
+    },
+    {
+        "name_ar": "الولايات المتحدة",
+        "name_en": "United States",
+        "native_name": "United States",
+        "capital": "واشنطن العاصمة",
+        "en_capital": "Washington D.C.",
+        "alpha_2": "US",
+        "alpha_3": "USA",
+        "phone_code": "1",
+        "nationality_en": "American",
+        "nationality_ar": "أمريكي",
+        "guid": "6a416494-8903-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "واشنطن العاصمة",
+            "en": "Washington D.C."
+        }
+    },
+    {
+        "name_ar": "أوروغواي",
+        "name_en": "Uruguay",
+        "native_name": "Uruguay",
+        "capital": "مونتيفيديو",
+        "en_capital": "Montevideo",
+        "alpha_2": "UY",
+        "alpha_3": "URY",
+        "phone_code": "598",
+        "nationality_en": "Uruguayan",
+        "nationality_ar": "أوروجواي",
+        "guid": "107148ce-8b03-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "مونتيفيديو",
+            "en": "Montevideo"
+        }
+    },
+    {
+        "name_ar": "فنزويلا",
+        "name_en": "Venezuela",
+        "native_name": "Venezuela",
+        "capital": "كاراكاس",
+        "en_capital": "Caracas",
+        "alpha_2": "VE",
+        "alpha_3": "VEN",
+        "phone_code": "58",
+        "nationality_en": "Venezuelan",
+        "nationality_ar": "فنزويلي",
+        "guid": "6abada36-294a-e911-9501-00155d85d423",
+        "capital_info": {
+            "ar": "كاراكاس",
+            "en": "Caracas"
+        }
+    },
+    {
+        "name_ar": "فيتنام",
+        "name_en": "Vietnam",
+        "native_name": "Việt Nam",
+        "capital": "هانوي",
+        "en_capital": "Hanoi",
+        "alpha_2": "VN",
+        "alpha_3": "VNM",
+        "phone_code": "84",
+        "nationality_en": "Vietnamese",
+        "nationality_ar": "فيتنامي",
+        "guid": "e665dcf5-9f4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "هانوي",
+            "en": "Hanoi"
+        }
+    },
+    {
+        "name_ar": "اليمن",
+        "name_en": "Yemen",
+        "native_name": "اليَمَن",
+        "capital": "صنعاء",
+        "en_capital": "Sana'a",
+        "alpha_2": "YE",
+        "alpha_3": "YEM",
+        "phone_code": "967",
+        "nationality_en": "Yemeni",
+        "nationality_ar": "اليمن",
+        "guid": "91631420-8c03-e911-94f5-00155d00d618",
+        "capital_info": {
+            "ar": "صنعاء",
+            "en": "Sana'a"
+        }
+    },
+    {
+        "name_ar": "زامبيا",
+        "name_en": "Zambia",
+        "native_name": "Zambia",
+        "capital": "لوساكا",
+        "en_capital": "Lusaka",
+        "alpha_2": "ZM",
+        "alpha_3": "ZMB",
+        "phone_code": "260",
+        "nationality_en": "Zambian",
+        "nationality_ar": "زامبي",
+        "guid": "64c910ed-9d4f-e911-80e1-00155d82d338",
+        "capital_info": {
+            "ar": "لوساكا",
+            "en": "Lusaka"
+        }
+    },
+    {
+        "name_ar": "زمبابوي",
+        "name_en": "Zimbabwe",
+        "native_name": "Zimbabwe",
+        "capital": "هراري",
+        "en_capital": "Harare",
+        "alpha_2": "ZW",
+        "alpha_3": "ZWE",
+        "phone_code": "263",
+        "nationality_en": "Zimbabwean",
+        "nationality_ar": "زيمبابوي",
+        "guid": "f917bcff-9d4f-e911-80c8-00155d01d533",
+        "capital_info": {
+            "ar": "هراري",
+            "en": "Harare"
+        }
+    }
+]

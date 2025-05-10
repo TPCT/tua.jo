@@ -1,0 +1,25 @@
+#payment-schedule .type-8-btn::before{
+    background-color: var(--secondary-color);
+}
+#payment-schedule .type-8-btn:hover svg path{
+    fill: white;
+}
+#payment-schedule .type-8-btn {
+    border: none;
+}
+.secondary-users-content td p{
+    margin-bottom: 0;
+}
+.view-more-modal .modal-header p {
+    opacity: 0.6;
+}
+.view-more-modal .donation-table-wrapper th{
+    border-block: unset;
+    border-bottom: 1px solid #041e422f;
+}
+.view-more-modal tbody td:first-child p {
+    color: rgba(243, 162, 23, 1);
+}
+.stop-recaring-modal .modal-header{
+    border: none;
+}

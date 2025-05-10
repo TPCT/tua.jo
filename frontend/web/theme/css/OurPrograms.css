@@ -1,0 +1,328 @@
+.about-the-project-section .about-the-project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+@media (max-width: 1199.88889px) {
+  .about-the-project-section .about-the-project-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 991.88889px) {
+  .about-the-project-section .about-the-project-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 767.88889px) {
+  .about-the-project-section .about-the-project-container {
+    grid-template-columns: 1fr;
+  }
+}
+.about-the-project-section
+  .about-the-project-container
+  .about-the-project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #fafafa;
+  padding: 20px 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(4 30 66 / 20%);
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+.about-the-project-section .about-the-project-container picture {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-color: var(--primary-color);
+  padding: 20px;
+  border-radius: 50%;
+}
+.about-the-project-section
+  .about-the-project-container
+  .about-the-project-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.about-the-project-section
+  .about-the-project-container
+  .about-the-project-content
+  h4 {
+  min-height: 40px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+@media (max-width: 767.88889px) {
+  .about-the-project-section
+    .about-the-project-container
+    .about-the-project-content
+    h4 {
+    min-height: unset;
+    -webkit-line-clamp: unset;
+    overflow: visible;
+  }
+}
+.about-the-project-section
+  .about-the-project-container
+  .about-the-project-content
+  p {
+  height: 100%;
+  margin-bottom: 0;
+}
+.our-programs-section:nth-child(odd) {
+  background-color: #fafafa;
+}
+.our-programs-section:nth-child(even) .our-programs-container {
+  flex-direction: row-reverse;
+}
+.our-programs-section .our-programs-content {
+  width: 100%;
+}
+.our-programs-section .accordion {
+  grid-template-columns: 1fr !important;
+}
+.our-programs-section:nth-child(odd)
+  .custom-accordion
+  .accordion-item:last-of-type,
+.our-programs-section:nth-child(odd)
+  .custom-accordion
+  .accordion-item:first-child,
+.our-programs-section:nth-child(odd) .custom-accordion .accordion-item,
+.our-programs-section:nth-child(odd)
+  .custom-accordion
+  .accordion-button:not(.collapsed) {
+  background-color: #fafafa !important;
+}
+.our-programs-section:nth-child(even)
+  .custom-accordion
+  .accordion-item
+  .accordion-button:last-of-type,
+.custom-accordion .accordion-item .accordion-button {
+  background-color: inherit !important;
+}
+.our-programs-container
+  .custom-accordion
+  .accordion-button:not(.collapsed)
+  .accordion-btn
+  .fa-minus,
+.our-programs-container
+  .custom-accordion
+  .accordion-button.collapsed
+  .accordion-btn
+  .fa-plus,
+.custom-accordion .accordion-item .accordion-button:last-of-type,
+.custom-accordion .accordion-item .accordion-button {
+  color: var(--primary-color);
+}
+@media (max-width: 425px) {
+  .our-programs-traget picture {
+    flex: 0.1;
+  }
+  .our-programs-traget p {
+    flex: 1.3;
+  }
+}
+/* 4th section  */
+.donation-programs-slider .colored-slide {
+  margin-inline: 0.5rem;
+  border: 1.5px solid #041e422f;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex !important;
+  flex-direction: column;
+  height: auto;
+  justify-content: space-between;
+}
+.donation-programs-slider .colored-slider .slick-list {
+  margin-inline: 0.5rem;
+}
+.donation-programs-slider .colored-slider .slick-track {
+  display: flex !important;
+}
+.home-4th-section {
+  overflow: hidden;
+}
+.donation-programs-slider .colored-slide img {
+  width: 100%;
+}
+
+.donation-programs-slider .colored-slider-type-2-btn {
+  background-color: transparent;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  height: 100%;
+  position: absolute;
+  inset-inline-end: 0;
+  color: #d75050;
+  border: 1.5px solid #041e422f;
+  padding-inline: 0.7rem;
+}
+.arabic-version  .donation-programs-slider .colored-slider-type-2-btn {
+  border-top-right-radius: unset;
+  border-bottom-right-radius: unset;
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  width: 70px;
+}
+.donation-programs-slider .colored-slide .type-1-btn {
+  width: 100%;
+}
+.donation-programs-slider .colored-slide h2 {
+  min-height: 3.2rem;
+}
+.donation-programs-slider .colored-slide picture {
+  position: relative;
+}
+.donation-programs-slider .colored-slide picture div {
+  position: absolute;
+  background-color: var(--colored-slider-color);
+  color: rgba(250, 250, 250, 1);
+  top: 0.5rem;
+  inset-inline-start: 0.5rem;
+  border-radius: 8px;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.3rem 0.5rem;
+}
+.donation-programs-slider .colored-slide picture div span {
+  color: rgba(250, 250, 250, 1);
+}
+.donation-programs-slider .colored-slide picture div svg {
+  fill: rgba(250, 250, 250, 1);
+}
+.donation-programs-slider .colored-slider-arrows-container {
+  display: flex;
+  padding-top: 1rem;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  justify-content: space-between;
+}
+.donation-programs-slider .colored-slider-arrows-container span {
+  position: relative;
+  border-radius: 100%;
+  margin: 0;
+  padding-inline: 0;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-out;
+  background-color: var(--secondary-color);
+  color: rgba(250, 250, 250, 1);
+}
+.donation-programs-slider .colored-slider-arrows-container span i {
+  font-size: 1.3rem;
+}
+.donation-programs-slider .colored-slider-prev {
+  position: absolute;
+  inset-inline-start: -5rem;
+}
+.donation-programs-slider .colored-slider-next {
+  position: absolute;
+  inset-inline-end: -4rem;
+}
+.donation-programs-slider .colored-slider .slick-dots li button:before {
+  color: var(--primary-color);
+  font-size: 10px;
+}
+.donation-programs-slider .colored-slider .slick-dots {
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+/* @media (max-width: 1500px) {
+    .donation-programs-slider .colored-slider-prev {
+      position: absolute;
+      inset-inline-start: -3.5rem;
+    }
+    .donation-programs-slider .colored-slider-next {
+      position: absolute;
+      inset-inline-end: -2rem;
+    }
+  } */
+.donation-programs-slider .colored-slider {
+  overflow: hidden;
+}
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+}
+.donation-programs-slider .colored-slider-prev,
+.donation-programs-slider .colored-slider-next {
+  position: relative;
+  border-radius: 100%;
+  margin: 0;
+  padding-inline: 0;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-out;
+  background-color: var(--secondary-color);
+  color: rgba(250, 250, 250, 1);
+  flex-shrink: 0;
+  inset-inline-start: 0;
+  inset-inline-end: 0;
+}
+.arabic-version  .donation-programs-slider .colored-slider-prev,
+.arabic-version  .donation-programs-slider .colored-slider-next {
+  transform: scaleX(-1);
+}
+@media (min-width: 1400.88888888px) {
+  .donation-programs-slider .colored-slider-prev,
+  .donation-programs-slider .colored-slider-next {
+    position: absolute;
+  }
+  .donation-programs-slider .colored-slider-prev {
+    inset-inline-start: -55px;
+  }
+  .donation-programs-slider .colored-slider-next {
+    inset-inline-start: unset;
+    inset-inline-end: -55px;
+  }
+}
+@media (max-width: 1435px) {
+  .donation-programs-slider .colored-slider-prev,
+  .donation-programs-slider .colored-slider-next {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 575.8888px) {
+  .donation-programs-slider .colored-slider-prev,
+  .donation-programs-slider .colored-slider-next {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+#OurPrograms ul li::marker{
+  color: var(--primary-color) ;
+}
+.our-programs-date{
+  padding-inline-start: 0.1rem;
+}
+.our-programs-traget img{
+  width: 25px !important;
+}
+.our-programs-date img{
+  width: 22px !important;
+}

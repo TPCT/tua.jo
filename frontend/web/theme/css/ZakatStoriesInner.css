@@ -1,0 +1,14 @@
+.latest-news-inner-section .disclaimer {
+  opacity: 0.5;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.arabic-version .latest-news-inner-section .disclaimer{
+  font-size: 0.85rem;
+}
+.latest-added-section {
+  background-color: #F7F8F9;
+}
+.ZakatStoriesInner-main-pic{
+  border-radius: 5px;
+}

@@ -1,0 +1,70 @@
+.simple-nav{
+    padding-block: 1rem;
+    box-shadow: 0px 20px 30px 0px rgba(182, 182, 182, 0.2);
+}
+.create-account-main-section .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: center;
+}
+.login-main-pic img{
+    width: 100%;
+}
+.create-account-main-section .donation-login{
+    background-color: transparent;
+}
+.nationality-select{
+    background-image: url(../assets/Icons/CaretDown.png),url(../assets/Icons/GlobeHemisphereEast.svg);
+    background-position: center right 15px,center left 15px;
+    padding-inline-end: 2rem;
+    text-indent: 40px;
+}
+.Residency-select{
+    background-image: url(../assets/Icons/CaretDown.png),url(../assets/Icons/MapPin.svg);
+    background-position: center right 15px,center left 15px;
+    padding-inline-end: 2rem;
+    text-indent: 40px;
+}
+.arabic-version .nationality-select{
+    background-position: center left 15px,center right 15px;
+
+}
+.arabic-version .Residency-select{
+    background-position: center left 15px,center right 15px;
+}
+
+.check-box-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.check-box-box p {
+    margin-bottom: 0;
+}
+.check-box-box input {
+    width: 26px;
+    height: 26px;
+}
+.login-methods-icon{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    background-color: rgba(4, 30, 66, 1);
+    margin-top: 1rem;
+}
+@media (max-width:991.88888px) {
+    .create-account-main-section .container{
+        grid-template-columns: 1fr;
+    }
+    .login-main-pic{
+        display: none;
+    }
+}

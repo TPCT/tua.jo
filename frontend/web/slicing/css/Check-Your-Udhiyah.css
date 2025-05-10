@@ -1,0 +1,73 @@
+.udhiyah-main {
+    background-image: url("../assets/Images/New-pages/Check\ Your\ Udhiyah\ image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-block: 3rem;
+  }
+  .arabic-version .udhiyah-main {
+    background-image: url("../assets/Images/New-pages/Check\ Your\ Udhiyah\ image-fillped.png");
+  }
+  .udhiyah-main-container {
+    display: flex;
+    border-radius: 4px;
+    background-color: rgba(250, 250, 250, 1);;
+    border: 1px solid #041e422f;
+    width: 40%;
+    margin-bottom: 4rem;
+    flex-direction: column;
+
+  }
+  .udhiyah-main-container-content{
+    padding: 1.5rem;
+  }
+  .udhiyah-main-container-content ul li{
+    line-height: 1.5;
+  }
+  .udhiyah-main-container-content h3{
+    margin-bottom: 0.9rem;
+  }
+  .udhiyah-main-container-content  .g-recaptcha{
+    margin: unset !important;
+  }
+
+  .udhiyah-main-container ul li::marker{
+    color: var(--primary-color);
+  }
+  .udhiyah-main-container button{
+    width: fit-content;
+  }
+  .udhiyah-main-container-header{
+    display: flex;
+    flex-direction: column;
+    border-bottom: #041e422f solid 1px;
+    padding: 1.5rem;
+  }
+  .udhiyah-main-container-header h4{
+    color: rgba(178, 204, 40, 1);
+  }
+  .udhiyah-main-container-item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #041e422f solid 1px;
+    padding: 1rem 1.5rem;
+  }
+  .udhiyah-main-container-item p{
+    margin-bottom: 0;
+  }
+  @media (max-width: 1199.88888px) {
+    .udhiyah-main-container {
+      width: 55%;
+    }
+  }
+  @media (max-width: 991.88888px) {
+    .udhiyah-main-container {
+      width: 100%;
+    }
+    .udhiyah-main {
+      background-image: none;
+  
+    }
+    .arabic-version .udhiyah-main {
+      background-image: none;
+    }
+  }
